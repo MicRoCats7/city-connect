@@ -1,4 +1,4 @@
-@import url('/public/general-sans.css');
+@import url("/public/general-sans.css");
 
 @tailwind base;
 @tailwind components;
@@ -26,4 +26,22 @@
 * {
   font-family: GeneralSans-Regular;
   background-color: #101010;
+}
+
+.special-text {
+  background: #ffffff;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@layer utilities {
+  .clip-hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
 }

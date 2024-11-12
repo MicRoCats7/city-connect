@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
+import SmartCity from "./components/SmartCity"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <main className="h-screen">
       <Navbar />
       <Header />
+      <SmartCity />
     </main>
   )
 }

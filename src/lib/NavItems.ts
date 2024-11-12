@@ -4,19 +4,19 @@ export const NavItems = [
         url: "/",
     },
     {
-        title: "Artikel",
-        url: "/services",
+        title: "Berita",
+        url: "/berita",
     },
     {
         title: "Kenali Smart City",
-        url: "/products",
+        url: "/smart-city",
     },
     {
         title: "Galeri",
-        url: "/products",
+        url: "/galeri",
     },
     {
         title: "Peta Smart City",
-        url: "/products",
+        url: "/peta-smart-city",
     }
 ]

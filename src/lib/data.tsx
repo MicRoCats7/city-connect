@@ -4,6 +4,7 @@ import smartSociety from "../assets/icon_smart_city/smart-society.svg";
 import smartLiving from "../assets/icon_smart_city/smart-living.svg";
 import smartEconomy from "../assets/icon_smart_city/smart-economy.svg";
 import smartBranding from "../assets/icon_smart_city/smart-branding.svg";
+import { title } from "process";
 
 export const dataSmartCity = [
   {
@@ -41,5 +42,88 @@ export const dataSmartCity = [
     title: "SMART BRANDING",
     desc: "Sebuah strategi membangun identitas kota yang kuat dan menarik dengan menggunakan teknologi dan inovasi digital. Melalui pencitraan yang autentik dan kampanye berbasis data, smart branding bertujuan untuk meningkatkan daya tarik kota bagi wisatawan, investor, dan warga lokal. Dengan menyoroti keunikan, potensi, dan kemajuan teknologi, smart branding membantu menciptakan reputasi kota yang modern, inklusif, dan berkelanjutan, sekaligus memupuk kebanggaan dan partisipasi warga dalam perkembangan kota.",
     icon: smartBranding,
+  },
+];
+
+export const berita = [
+  {
+    id: 1,
+    title:
+      "Cara Cek Jadwal MRT,  LRT, TransJakarta, dan Mikrotrans di Aplikasi JAKI",
+    date: "19 Agu 2024",
+  },
+  {
+    id: 2,
+    title: "Cara Bayar Tagihan Listrik di Shopee Hanya dengan Beberapa Klik!",
+    date: "6 Nov 2024",
+  },
+  {
+    id: 3,
+    title: "Mengenal CRM Sebagai Kanal Aduan Masyarakat Jakarta",
+    date: "23 Jun 2022",
+  },
+  {
+    id: 4,
+    title:
+      "Kisah Peserta JKN Daftar Berobat Tanpa Antre Lewat Aplikasi JKN Mobile",
+    date: "22 Okt 2024",
+  },
+  {
+    id: 5,
+    title: "Naik Suroboyo Bus Kini Bisa Bayar Pakai Kartu e-Money",
+    date: "11 Okt 2021",
+  },
+];
+
+export const galeri = [
+  {
+    id: 1,
+    name: "Jakarta",
+    link: "https://www.youtube.com/embed/K_roO9tycV4?si=YVKXr4K1mBFNXQ8V",
+  },
+  {
+    id: 2,
+    name: "Surabaya",
+    link: "https://www.youtube.com/embed/VLsNfipXv5Q?si=LbjWf2K2zPeHNiha",
+  },
+  {
+    id: 3,
+    name: "Bandung",
+    link: "https://www.youtube.com/embed/CsFRai1m9QI?si=wEuw79iu1rt9I9v",
+  },
+  {
+    id: 4,
+    name: "Denpasar",
+    link: "https://www.youtube.com/embed/X9alu7blkKI?si=hYlxYYThM_tRfNkz",
+  },
+  {
+    id: 5,
+    name: "Yogyakarta",
+    link: "https://www.youtube.com/embed/71uAk1skYsc?si=vBy7fJyPJHCMt5Yn",
+  },
+  {
+    id: 6,
+    name: "Semarang",
+    link: "https://www.youtube.com/embed/N_46mWMdmvQ?si=3qytRAOvCvSoCR1i",
+  },
+  {
+    id: 7,
+    name: "Makassar",
+    link: "https://www.youtube.com/embed/H_Oi9evsuBo?si=74qyqpeKxoXb8rDR",
+  },
+  {
+    id: 8,
+    name: "Batu",
+    link: "https://www.youtube.com/embed/khiz3KW9ZTw?si=rIeG3CVxzUFebmfC",
+  },
+  {
+    id: 9,
+    name: "Balikpapan",
+    link: "https://www.youtube.com/embed/kDbY3N8ldGU?si=a2uYfbBTMaZIecKq",
+  },
+  {
+    id: 10,
+    name: "Bekasi",
+    link: "https://www.youtube.com/embed/WL78Z3B_3cs?si=1-0W6HWYeOpj8NDb",
   },
 ];

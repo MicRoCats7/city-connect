@@ -4,7 +4,6 @@ import smartSociety from "../assets/icon_smart_city/smart-society.svg";
 import smartLiving from "../assets/icon_smart_city/smart-living.svg";
 import smartEconomy from "../assets/icon_smart_city/smart-economy.svg";
 import smartBranding from "../assets/icon_smart_city/smart-branding.svg";
-import { title } from "process";
 
 export const dataSmartCity = [
   {

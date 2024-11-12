@@ -10,7 +10,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Navbar() {
     return (
-        <section className="py-8 flex items-center justify-between">
+        <section className="py-8 flex items-center justify-between wrapper">
             <img src={logo} alt="logo" />
             <div className="flex items-center gap-10">
                 {NavItems.map((item, index) => {

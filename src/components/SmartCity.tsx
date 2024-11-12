@@ -3,8 +3,6 @@ import { GoArrowRight } from "react-icons/go";
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
-    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -25,7 +23,7 @@ function SmartCity() {
     );
 
     return (
-        <section className="flex justify-center items-center flex-col mt-32">
+        <section className="flex justify-center items-center flex-col mt-32 relative">
             <div className="flex items-center justify-center flex-col">
                 <h1 className="special-text text-[50px] font-general-sans-semibold">KENALI SMART CITY</h1>
                 <p className="text-[#ffffff60] text-lg font-general-sans-regular">Aspek-Aspek yang Membentuk Smart City</p>

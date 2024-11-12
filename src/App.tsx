@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <SmartCity />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

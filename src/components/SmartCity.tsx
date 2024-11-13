@@ -12,7 +12,7 @@ import collapseRight from "@/assets/collapse-right.svg";
 
 function SmartCity() {
     const Hexagon = ({ color, label, icon }: { color: any, label: string, icon: any }) => (
-        <div className={`relative w-[290px] h-[340px] clip-hexagon flex items-center justify-center text-white hover:scale-105 transition transform cursor-pointer`} style={{ backgroundColor: color }}>
+        <div className={`relative w-[290px] h-[340px] clip-hexagon flex items-center justify-center text-white hover:scale-90 transition transform cursor-pointer`} style={{ backgroundColor: color }}>
             <div className="flex items-center justify-center flex-col gap-2 bg-transparent">
                 <img src={icon} alt="icon" className="bg-transparent" />
                 <p className="text-lg font-general-sans-semibold bg-transparent">{label}</p>

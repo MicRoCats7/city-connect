@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Galeri from "./components/Galeri";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <SmartCity />
       <News />
+      <Galeri />
       <Footer />
     </main>
   );

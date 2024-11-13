@@ -26,15 +26,14 @@
 * {
   font-family: GeneralSans-Regular;
   background-color: #101010;
+  color: #ffffff;
 }
 
 .special-text {
   background: #ffffff;
-  background: linear-gradient(
-    to right,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
+  background: linear-gradient(to right,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.5) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -49,5 +48,27 @@
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+}
+
+@keyframes gradientBorderAnimation {
+  0% {
+    border-image-source: linear-gradient(45deg, #FFF, transparent, transparent, transparent);
+  }
+
+  25% {
+    border-image-source: linear-gradient(135deg, transparent, #FFF, transparent, transparent);
+  }
+
+  50% {
+    border-image-source: linear-gradient(225deg, transparent, transparent, #FFF, transparent);
+  }
+
+  75% {
+    border-image-source: linear-gradient(315deg, transparent, transparent, transparent, #FFF);
+  }
+
+  100% {
+    border-image-source: linear-gradient(405deg, #FFF, transparent, transparent, transparent);
   }
 }

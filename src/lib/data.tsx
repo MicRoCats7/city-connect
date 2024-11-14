@@ -9,6 +9,27 @@ import imageBerita2 from "../assets/image_berita/foto bayar listrik gopay.webp";
 import imageBerita3 from "../assets/image_berita/foto CRM.png";
 import imageBerita4 from "../assets/image_berita/foto mobile jkn.jpeg";
 import imageBerita5 from "../assets/image_berita/foto e money suroboyo bus.jpg";
+import thumbnailGaleri1 from "../assets/image_galeri/thumbnail/jakarta.jpg";
+import thumbnailGaleri2 from "../assets/image_galeri/thumbnail/surabaya.jpg";
+import thumbnailGaleri3 from "../assets/image_galeri/thumbnail/bandung.jpg";
+import thumbnailGaleri4 from "../assets/image_galeri/thumbnail/bali.png";
+import thumbnailGaleri5 from "../assets/image_galeri/thumbnail/jogja.jpg";
+import thumbnailGaleri6 from "../assets/image_galeri/thumbnail/semarang.jpg";
+import thumbnailGaleri7 from "../assets/image_galeri/thumbnail/makassar.webp";
+import thumbnailGaleri8 from "../assets/image_galeri/thumbnail/batu.webp";
+import thumbnailGaleri9 from "../assets/image_galeri/thumbnail/balikpapan.jpg";
+import thumbnailGaleri10 from "../assets/image_galeri/thumbnail/bekasi.jpg";
+import imageGaleriJakarta1 from "../assets/image_galeri/Jakarta/foto jaki.jpeg";
+import imageGaleriJakarta2 from "../assets/image_galeri/Jakarta/foto mrt jakarta.png";
+import imageGaleriJakarta3 from "../assets/image_galeri/Jakarta/foto future city hub.png";
+import imageGaleriJakarta4 from "../assets/image_galeri/Jakarta/foto CRM.png";
+import imageGaleriJakarta5 from "../assets/image_galeri/Jakarta/foto pantau banjir.png";
+import imageGaleriJakarta6 from "../assets/image_galeri/Jakarta/foto peta jakarta kini.png";
+import imageGaleriJakarta7 from "../assets/image_galeri/Jakarta/foto digital experience.png";
+import imageGaleriJakarta8 from "../assets/image_galeri/Jakarta/foto jurnal.png";
+import imageGaleriSurabaya1 from "../assets/image_galeri/Surabaya/foto suroboyo bus.jpeg";
+import imageGaleriSurabaya2 from "../assets/image_galeri/Surabaya/foto wira wiri.webp";
+import imageGaleriSurabaya3 from "../assets/image_galeri/Surabaya/foto SSW.png";
 
 export const dataSmartCity = [
   {
@@ -95,50 +116,129 @@ export const galeri = [
     id: 1,
     name: "Jakarta",
     link: "https://www.youtube.com/embed/K_roO9tycV4?si=YVKXr4K1mBFNXQ8V",
+    thumbnail: thumbnailGaleri1,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriJakarta1,
+        desc: "Aplikasi Jakarta Kini atau JAKI merupakan super-app Jakarta yang menyediakan layanan satu pintu untuk membantu keseharian warga. ",
+      },
+      {
+        id: 2,
+        image: imageGaleriJakarta2,
+        desc: "PT MRT Jakarta merupakan penyedia jasa transportasi publik terdepan yang berkomitmen untuk mendorong pertumbuhan ekonomi melalui peningkatan mobilitas, pengurangan kemacetan, dan pengembangan sistem transit perkotaan. ",
+      },
+      {
+        id: 3,
+        image: imageGaleriJakarta3,
+        desc: "Future City Hub merupakan ruang temu bagi Pemerintah Provinsi DKI Jakarta sebagai problem owner dengan startup, akademisi, serta mitra lain sebagai problem solvers untuk memecahkan masalah perkotaan.",
+      },
+      {
+        id: 4,
+        image: imageGaleriJakarta4,
+        desc: "Cepat Respon Masyarakat (CRM) mengintegrasikan seluruh kanal pengaduan resmi Pemprov DKI Jakarta. Laporan pengaduan yang masuk ditindaklanjuti secara lebih responsif, efisien, dan transparan.",
+      },
+      {
+        id: 5,
+        image: imageGaleriJakarta5,
+        desc: "Pantau Banjir merupakan pusat informasi terkait banjir dan cuaca di Jakarta secara lengkap. Warga dapat mengaksesnya kapan saja dan di mana saja. ",
+      },
+      {
+        id: 6,
+        image: imageGaleriJakarta6,
+        desc: "JakPeta merupakan fitur yang mempermudah kamu untuk menjelajah kuliner dan tempat wisata di Jakarta dengan sekali sentuhan. Menyediakan berbagai macam informasi dalam sejumlah kategori terdekat dari lokasimu, seperti fasilitas umum, transportasi, hingga fasilitas kesehatan.",
+      },
+      {
+        id: 7,
+        image: imageGaleriJakarta7,
+        desc: "Digital Experience Jakarta adalah konsep pengalaman digital terpadu yang dirancang untuk mempermudah interaksi masyarakat dan wisatawan dengan berbagai layanan, budaya, serta gaya hidup Jakarta melalui platform digital.",
+      },
+      {
+        id: 8,
+        image: imageGaleriJakarta8,
+        desc: "Journal of Future Cities adalah kumpulan jurnal ilmiah di balik terwujudnya inovasi smart city",
+      },
+    ],
   },
   {
     id: 2,
     name: "Surabaya",
     link: "https://www.youtube.com/embed/VLsNfipXv5Q?si=LbjWf2K2zPeHNiha",
+    thumbnail: thumbnailGaleri2,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriSurabaya1,
+        desc: "Suroboyo Bus adalah sebuah layanan transportasi bus yang dimiliki oleh Pemerintah Kota Surabaya yang dirancang dengan fasilitas modern dan berfungsi sebagai transportasi umum di wilayah Surabaya, mirip dengan bus kota.",
+      },
+      {
+        id: 2,
+        image: imageGaleriSurabaya2,
+        desc: "Wira-Wiri Suroboyo adalah layanan transportasi umum di Kota Surabaya yang bertujuan untuk memudahkan mobilitas warga serta mengurangi kemacetan dan polusi. Layanan ini menggunakan minivan yang menjangkau area yang mungkin tidak terjangkau oleh angkutan umum konvensional.",
+      },
+      {
+        id: 3,
+        image: imageGaleriSurabaya3,
+        desc: "Surabaya Single Window (SSW) adalah sistem yang memungkinkan dilakukannya suatu penyampaian data dan informasi secara tunggal, pemrosesan data dan informasi secara tunggal dan sinkron serta pembuatan keputusan sesuai dengan tugas dan fungsi masing-masing perangkat daerah dalam hal pelayanan perizinan dan non perizinan.",
+      },
+      {
+        id: 4,
+        image: "",
+        desc: "",
+      },
+      {
+        id: 5,
+        image: "",
+        desc: "",
+      },
+    ],
   },
   {
     id: 3,
     name: "Bandung",
     link: "https://www.youtube.com/embed/CsFRai1m9QI?si=wEuw79iu1rt9I9v",
+    thumbnail: thumbnailGaleri3,
   },
   {
     id: 4,
     name: "Denpasar",
     link: "https://www.youtube.com/embed/X9alu7blkKI?si=hYlxYYThM_tRfNkz",
+    thumbnail: thumbnailGaleri4,
   },
   {
     id: 5,
     name: "Yogyakarta",
     link: "https://www.youtube.com/embed/71uAk1skYsc?si=vBy7fJyPJHCMt5Yn",
+    thumbnail: thumbnailGaleri5,
   },
   {
     id: 6,
     name: "Semarang",
     link: "https://www.youtube.com/embed/N_46mWMdmvQ?si=3qytRAOvCvSoCR1i",
+    thumbnail: thumbnailGaleri6,
   },
   {
     id: 7,
     name: "Makassar",
     link: "https://www.youtube.com/embed/H_Oi9evsuBo?si=74qyqpeKxoXb8rDR",
+    thumbnail: thumbnailGaleri7,
   },
   {
     id: 8,
     name: "Batu",
     link: "https://www.youtube.com/embed/khiz3KW9ZTw?si=rIeG3CVxzUFebmfC",
+    thumbnail: thumbnailGaleri8,
   },
   {
     id: 9,
     name: "Balikpapan",
     link: "https://www.youtube.com/embed/kDbY3N8ldGU?si=a2uYfbBTMaZIecKq",
+    thumbnail: thumbnailGaleri9,
   },
   {
     id: 10,
     name: "Bekasi",
     link: "https://www.youtube.com/embed/WL78Z3B_3cs?si=1-0W6HWYeOpj8NDb",
+    thumbnail: thumbnailGaleri10,
   },
 ];

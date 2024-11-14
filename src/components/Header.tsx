@@ -4,7 +4,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Header() {
     return (
-        <section>
+        <section id="Beranda">
             <div className="relative">
                 <img src={bgHeader} alt="bg-header" className="w-full h-[500px]" />
                 <div className="wrapper">

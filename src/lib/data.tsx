@@ -13,7 +13,7 @@ import thumbnailGaleri1 from "../assets/image_galeri/thumbnail/jakarta.jpg";
 import thumbnailGaleri2 from "../assets/image_galeri/thumbnail/surabaya.jpg";
 import thumbnailGaleri3 from "../assets/image_galeri/thumbnail/bandung.jpg";
 import thumbnailGaleri4 from "../assets/image_galeri/thumbnail/bali.png";
-import thumbnailGaleri5 from "../assets/image_galeri/thumbnail/jogja..jpg";
+import thumbnailGaleri5 from "../assets/image_galeri/thumbnail/jogja.jpg";
 import thumbnailGaleri6 from "../assets/image_galeri/thumbnail/semarang.jpg";
 import thumbnailGaleri7 from "../assets/image_galeri/thumbnail/makassar.webp";
 import thumbnailGaleri8 from "../assets/image_galeri/thumbnail/batu.webp";

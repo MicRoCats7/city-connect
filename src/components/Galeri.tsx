@@ -55,13 +55,15 @@ function Galeri() {
                                 >
                                     <img
                                         className="mb-5 w-[270px] h-[180px] rounded-[20px] hover:scale-90 transition transform"
-                                        src={galeriKota}
+                                        src={galeri.thumbnail}
                                         alt={galeri.name}
                                     />
                                     <div className="absolute left-[45%] top-[35%] bg-transparent">
                                         <FaPlay className="bg-transparent" size={30} color="white" />
                                     </div>
-                                    <p className="mb-5 text-[22px] leading-6 font-general-sans-semibold text-white">{galeri.name}</p>
+                                    <div className="w-full absolute bottom-4 p-5 bg-gradient-to-t from-black/100 to-transparent bg-transparent rounded-[20px]">
+                                        <p className="mb-0 text-[22px] font-general-sans-semibold text-white bg-transparent">{galeri.name}</p>
+                                    </div>
                                 </div>
                             )
                         } else {
@@ -73,7 +75,7 @@ function Galeri() {
                                 >
                                     <img
                                         className="mb-5 object-cover w-full h-full rounded-[20px]"
-                                        src={galeriKota}
+                                        src={galeri.thumbnail}
                                         alt={galeri.name}
                                     />
                                     <div className="absolute left-[46%] top-[40%] bg-transparent">
@@ -89,7 +91,7 @@ function Galeri() {
                 </div>
                 <div className="grid grid-cols-4 grid-rows-2 gap-2.5">
                     {galeri.slice(5, 10).map((galeri, index) => {
-                        if (index !== 2) {
+                        if (index !== 0) {
                             return (
                                 <div
                                     key={galeri.id}
@@ -98,10 +100,15 @@ function Galeri() {
                                 >
                                     <img
                                         className="mb-5 w-[270px] h-[180px] rounded-[20px] hover:scale-90 transition transform"
-                                        src={galeriKota}
+                                        src={galeri.thumbnail}
                                         alt={galeri.name}
                                     />
-                                    <p className="mb-5 text-[22px] leading-6 font-general-sans-semibold text-white">{galeri.name}</p>
+                                    <div className="absolute left-[45%] top-[35%] bg-transparent">
+                                        <FaPlay className="bg-transparent" size={30} color="white" />
+                                    </div>
+                                    <div className="w-full absolute bottom-4 p-5 bg-gradient-to-t from-black/100 to-transparent bg-transparent rounded-[20px]">
+                                        <p className="mb-0 text-[22px] font-general-sans-semibold text-white bg-transparent">{galeri.name}</p>
+                                    </div>
                                 </div>
                             )
                         } else {
@@ -113,9 +120,12 @@ function Galeri() {
                                 >
                                     <img
                                         className="mb-5 object-cover w-full h-full rounded-[20px]"
-                                        src={galeriKota}
+                                        src={galeri.thumbnail}
                                         alt={galeri.name}
                                     />
+                                    <div className="absolute left-[46%] top-[40%] bg-transparent">
+                                        <FaPlay className="bg-transparent" size={50} color="white" />
+                                    </div>
                                     <div className="w-full absolute bottom-4 p-5 bg-gradient-to-t from-black/100 to-transparent bg-transparent rounded-[20px]">
                                         <p className="mb-5 text-[50px] font-general-sans-semibold text-white bg-transparent">{galeri.name}</p>
                                     </div>

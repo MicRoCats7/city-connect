@@ -4,32 +4,44 @@ import smartSociety from "../assets/icon_smart_city/smart-society.svg";
 import smartLiving from "../assets/icon_smart_city/smart-living.svg";
 import smartEconomy from "../assets/icon_smart_city/smart-economy.svg";
 import smartBranding from "../assets/icon_smart_city/smart-branding.svg";
-import imageBerita1 from "../assets/image_berita/foto jaki.jpeg";
+import imageBerita1 from "../assets/image_berita/foto jaki.webp";
 import imageBerita2 from "../assets/image_berita/foto bayar listrik gopay.webp";
-import imageBerita3 from "../assets/image_berita/foto CRM.png";
-import imageBerita4 from "../assets/image_berita/foto mobile jkn.jpeg";
-import imageBerita5 from "../assets/image_berita/foto e money suroboyo bus.jpg";
-import thumbnailGaleri1 from "../assets/image_galeri/thumbnail/jakarta.jpg";
-import thumbnailGaleri2 from "../assets/image_galeri/thumbnail/surabaya.jpg";
-import thumbnailGaleri3 from "../assets/image_galeri/thumbnail/bandung.jpg";
-import thumbnailGaleri4 from "../assets/image_galeri/thumbnail/bali.png";
-import thumbnailGaleri5 from "../assets/image_galeri/thumbnail/jogja..jpg";
-import thumbnailGaleri6 from "../assets/image_galeri/thumbnail/semarang.jpg";
+import imageBerita3 from "../assets/image_berita/foto CRM.webp";
+import imageBerita4 from "../assets/image_berita/foto mobile jkn.webp";
+import imageBerita5 from "../assets/image_berita/foto e money suroboyo bus.webp";
+import thumbnailGaleri1 from "../assets/image_galeri/thumbnail/jakarta.webp";
+import thumbnailGaleri2 from "../assets/image_galeri/thumbnail/surabaya.webp";
+import thumbnailGaleri3 from "../assets/image_galeri/thumbnail/bandung.webp";
+import thumbnailGaleri4 from "../assets/image_galeri/thumbnail/bali.webp";
+import thumbnailGaleri5 from "../assets/image_galeri/thumbnail/jogja.webp";
+import thumbnailGaleri6 from "../assets/image_galeri/thumbnail/semarang.webp";
 import thumbnailGaleri7 from "../assets/image_galeri/thumbnail/makassar.webp";
 import thumbnailGaleri8 from "../assets/image_galeri/thumbnail/batu.webp";
-import thumbnailGaleri9 from "../assets/image_galeri/thumbnail/balikpapan.jpg";
-import thumbnailGaleri10 from "../assets/image_galeri/thumbnail/bekasi.jpg";
-import imageGaleriJakarta1 from "../assets/image_galeri/Jakarta/foto jaki.jpeg";
-import imageGaleriJakarta2 from "../assets/image_galeri/Jakarta/foto mrt jakarta.png";
-import imageGaleriJakarta3 from "../assets/image_galeri/Jakarta/foto future city hub.png";
-import imageGaleriJakarta4 from "../assets/image_galeri/Jakarta/foto CRM.png";
-import imageGaleriJakarta5 from "../assets/image_galeri/Jakarta/foto pantau banjir.png";
-import imageGaleriJakarta6 from "../assets/image_galeri/Jakarta/foto peta jakarta kini.png";
-import imageGaleriJakarta7 from "../assets/image_galeri/Jakarta/foto digital experience.png";
-import imageGaleriJakarta8 from "../assets/image_galeri/Jakarta/foto jurnal.png";
-import imageGaleriSurabaya1 from "../assets/image_galeri/Surabaya/foto suroboyo bus.jpeg";
+import thumbnailGaleri9 from "../assets/image_galeri/thumbnail/balikpapan.webp";
+import thumbnailGaleri10 from "../assets/image_galeri/thumbnail/bekasi.webp";
+import imageGaleriJakarta1 from "../assets/image_galeri/Jakarta/foto jaki.webp";
+import imageGaleriJakarta2 from "../assets/image_galeri/Jakarta/foto mrt jakarta.webp";
+import imageGaleriJakarta3 from "../assets/image_galeri/Jakarta/foto future city hub.webp";
+import imageGaleriJakarta4 from "../assets/image_galeri/Jakarta/foto CRM.webp";
+import imageGaleriJakarta5 from "../assets/image_galeri/Jakarta/foto pantau banjir.webp";
+import imageGaleriJakarta6 from "../assets/image_galeri/Jakarta/foto peta jakarta kini.webp";
+import imageGaleriJakarta7 from "../assets/image_galeri/Jakarta/foto digital experience.webp";
+import imageGaleriJakarta8 from "../assets/image_galeri/Jakarta/foto jurnal.webp";
+import imageGaleriSurabaya1 from "../assets/image_galeri/Surabaya/foto suroboyo bus.webp";
 import imageGaleriSurabaya2 from "../assets/image_galeri/Surabaya/foto wira wiri.webp";
-import imageGaleriSurabaya3 from "../assets/image_galeri/Surabaya/foto SSW.png";
+import imageGaleriSurabaya3 from "../assets/image_galeri/Surabaya/foto SSW.webp";
+import imageGaleriSurabaya4 from "../assets/image_galeri/Surabaya/foto sits atcs.webp";
+import imageGaleriSurabaya5 from "../assets/image_galeri/Surabaya/foto e-health.webp";
+import imageGaleriSurabaya6 from "../assets/image_galeri/Surabaya/foto peken.webp";
+import imageGaleriBandung1 from "../assets/image_galeri/Bandung/foto bcc.webp";
+import imageGaleriBandung2 from "../assets/image_galeri/Bandung/foto bandung smart city.webp";
+import imageGaleriBandung3 from "../assets/image_galeri/Bandung/foto open data.webp";
+import imageGaleriBandung4 from "../assets/image_galeri/Bandung/foto technopolis.webp";
+import imageGaleriBandung5 from "../assets/image_galeri/Bandung/foto TPE.webp";
+import imageGaleriDenpasar1 from "../assets/image_galeri/Denpasar/foto cyber monitor.webp";
+import imageGaleriDenpasar2 from "../assets/image_galeri/Denpasar/fotoDenpasar Tourism Information.webp";
+import imageGaleriDenpasar3 from "../assets/image_galeri/Denpasar/foto satu data denpasar.webp";
+import imageGaleriYogya1 from "../assets/image_galeri/Yogyakarta/foto jogja smart service.webp";
 
 export const dataSmartCity = [
   {
@@ -114,6 +126,77 @@ export const berita = [
 export const galeri = [
   {
     id: 1,
+    name: "Bandung",
+    link: "https://www.youtube.com/embed/CsFRai1m9QI?si=wEuw79iu1rt9I9v",
+    thumbnail: thumbnailGaleri3,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBandung1,
+        desc: "BCC merupakan upaya berbasis teknologi informasi dan komunikasi yang mewujudkan tata kelola pemerintahan serta meningkatkan kualitas pelayanan publik yang lebih baik lagi.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBandung2,
+        desc: "Aplikasi Bandung Smart City dirancang untuk memberikan informasi penting dan layanan langsung bagi warga yang menyediakan informasi tentang layanan kesehatan, pendidikan, transportasi, dan fasilitas publik di Bandung.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBandung3,
+        desc: "Open Data Kota Bandung hadir sebagai portal data terbuka yang menyediakan data akurat dari seluruh organisasi perangkat daerah di Kota Bandung.",
+      },
+      {
+        id: 4,
+        image: imageGaleriBandung4,
+        desc: "Technopolis merupakan infrastruktur yang mendorong inovasi dan komersialisasi produk-produk teknologi milik Institut Teknologi Bandung (ITB). Kawasan ini disebut pula dengan ITB Innovation Park (IIP) Bandung Technopolis.",
+      },
+      {
+        id: 5,
+        image: imageGaleriBandung5,
+        desc: "Mesin Terminal Parkir Elektronik (TPE) merupakan sebuah mesin yang berfungsi untuk membayar retribusi parkir di pinggir jalan yang dilakukan secara mandiri oleh pengguna.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Surabaya",
+    link: "https://www.youtube.com/embed/VLsNfipXv5Q?si=LbjWf2K2zPeHNiha",
+    thumbnail: thumbnailGaleri2,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriSurabaya1,
+        desc: "Suroboyo Bus adalah sebuah layanan transportasi bus yang dimiliki oleh Pemerintah Kota Surabaya yang dirancang dengan fasilitas modern dan berfungsi sebagai transportasi umum di wilayah Surabaya, mirip dengan bus kota.",
+      },
+      {
+        id: 2,
+        image: imageGaleriSurabaya2,
+        desc: "Wira-Wiri Suroboyo adalah layanan transportasi umum di Kota Surabaya yang bertujuan untuk memudahkan mobilitas warga serta mengurangi kemacetan dan polusi. Layanan ini menggunakan minivan yang menjangkau area yang mungkin tidak terjangkau oleh angkutan umum konvensional.",
+      },
+      {
+        id: 3,
+        image: imageGaleriSurabaya3,
+        desc: "Surabaya Single Window (SSW) adalah sistem yang memungkinkan dilakukannya suatu penyampaian data dan informasi secara tunggal, pemrosesan data dan informasi secara tunggal dan sinkron serta pembuatan keputusan sesuai dengan tugas dan fungsi masing-masing perangkat daerah dalam hal pelayanan perizinan dan non perizinan.",
+      },
+      {
+        id: 4,
+        image: imageGaleriSurabaya4,
+        desc: "SITS adalah sistem transportasi cerdas yang menggunakan teknologi informasi dan komunikasi untuk memantau, mengatur, dan mengoptimalkan lalu lintas di Surabaya.",
+      },
+      {
+        id: 5,
+        image: imageGaleriSurabaya5,
+        desc: "E-health merupakan sistem informasi pendaftaran pasien online yang diselenggarakan Dinas Kesehatan Kota Surabaya.",
+      },
+      {
+        id: 6,
+        image: imageGaleriSurabaya6,
+        desc: "PEKEN Surabaya adalah aplikasi yang digunakan Pegawai Pemerintah Kota Surabaya ataupun masyarakat umum untuk melakukan belanja berbagai macam kebutuhan sehari-hari pada Toko Kelontong, UMKM maupun SWK yang tersedia di setiap Kecamatan di Kota Surabaya.",
+      },
+    ],
+  },
+  {
+    id: 3,
     name: "Jakarta",
     link: "https://www.youtube.com/embed/K_roO9tycV4?si=YVKXr4K1mBFNXQ8V",
     thumbnail: thumbnailGaleri1,
@@ -161,55 +244,50 @@ export const galeri = [
     ],
   },
   {
-    id: 2,
-    name: "Surabaya",
-    link: "https://www.youtube.com/embed/VLsNfipXv5Q?si=LbjWf2K2zPeHNiha",
-    thumbnail: thumbnailGaleri2,
-    photo: [
-      {
-        id: 1,
-        image: imageGaleriSurabaya1,
-        desc: "Suroboyo Bus adalah sebuah layanan transportasi bus yang dimiliki oleh Pemerintah Kota Surabaya yang dirancang dengan fasilitas modern dan berfungsi sebagai transportasi umum di wilayah Surabaya, mirip dengan bus kota.",
-      },
-      {
-        id: 2,
-        image: imageGaleriSurabaya2,
-        desc: "Wira-Wiri Suroboyo adalah layanan transportasi umum di Kota Surabaya yang bertujuan untuk memudahkan mobilitas warga serta mengurangi kemacetan dan polusi. Layanan ini menggunakan minivan yang menjangkau area yang mungkin tidak terjangkau oleh angkutan umum konvensional.",
-      },
-      {
-        id: 3,
-        image: imageGaleriSurabaya3,
-        desc: "Surabaya Single Window (SSW) adalah sistem yang memungkinkan dilakukannya suatu penyampaian data dan informasi secara tunggal, pemrosesan data dan informasi secara tunggal dan sinkron serta pembuatan keputusan sesuai dengan tugas dan fungsi masing-masing perangkat daerah dalam hal pelayanan perizinan dan non perizinan.",
-      },
-      {
-        id: 4,
-        image: "",
-        desc: "",
-      },
-      {
-        id: 5,
-        image: "",
-        desc: "",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Bandung",
-    link: "https://www.youtube.com/embed/CsFRai1m9QI?si=wEuw79iu1rt9I9v",
-    thumbnail: thumbnailGaleri3,
-  },
-  {
     id: 4,
     name: "Denpasar",
     link: "https://www.youtube.com/embed/X9alu7blkKI?si=hYlxYYThM_tRfNkz",
     thumbnail: thumbnailGaleri4,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriDenpasar1,
+        desc: "Denpasar Cyber Monitor (DCM) adalah sebuah sistem pengawasan digital yang diterapkan oleh pemerintah Kota Denpasar untuk memantau isu-isu atau masalah yang muncul di media sosial",
+      },
+      {
+        id: 2,
+        image: imageGaleriDenpasar2,
+        desc: "Denpasar Tourism Information merupakan aplikasi pariwisata digital yang memberikan informasi tentang destinasi wisata, acara budaya, dan tempat menarik di kota.",
+      },
+      {
+        id: 3,
+        image: imageGaleriDenpasar3,
+        desc: "Satu Data Kota Denpasar ditujukan untuk mempermudah publik dalam mengakses data dan informasi mengenai Kota Denpasar.",
+      },
+    ],
   },
   {
     id: 5,
     name: "Yogyakarta",
     link: "https://www.youtube.com/embed/71uAk1skYsc?si=vBy7fJyPJHCMt5Yn",
     thumbnail: thumbnailGaleri5,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriYogya1,
+        desc: "",
+      },
+      {
+        id: 2,
+        image: "",
+        desc: "",
+      },
+      {
+        id: 3,
+        image: "",
+        desc: "",
+      },
+    ],
   },
   {
     id: 6,

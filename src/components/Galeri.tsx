@@ -38,7 +38,7 @@ function Galeri() {
     }, [selectedItem]);
 
     return (
-        <section className="wrapper pt-[172px]">
+        <section className="wrapper pt-[172px]" id="Galeri">
             <div className="flex items-center justify-end gap-4">
                 <Separator className="border-2 rounded-full w-[94px]" />
                 <h2 className="text-[50px] font-general-sans-semibold special-text">Galeri</h2>

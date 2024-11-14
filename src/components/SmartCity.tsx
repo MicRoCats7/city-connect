@@ -25,7 +25,7 @@ function SmartCity() {
     );
 
     return (
-        <section className="flex justify-center items-center flex-col mt-32 relative">
+        <section className="flex justify-center items-center flex-col pt-32 relative" id="Kenali Smart City">
             <div className="absolute left-0 top-8 bg-transparent">
                 <img src={collapseLeft} alt="collapse" className="bg-transparent" />
             </div>

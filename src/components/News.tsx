@@ -3,7 +3,7 @@ import { Separator } from "./ui/separator"
 
 function News() {
     return (
-        <section className="mt-[1000px]">
+        <section className="mt-[900px] pt-28" id="Berita">
             <div className="wrapper">
                 <div className="flex items-center gap-4">
                     <h2 className="text-[50px] font-general-sans-semibold special-text">Berita</h2>

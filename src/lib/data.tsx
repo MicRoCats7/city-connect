@@ -51,6 +51,14 @@ import imageGaleriSemarang4 from "../assets/image_galeri/Semarang/foto smart hea
 import imageGaleriMakassar1 from "../assets/image_galeri/Makassar/war room.webp";
 import imageGaleriMakassar2 from "../assets/image_galeri/Makassar/foto smart parking.webp";
 import imageGaleriMakassar3 from "../assets/image_galeri/Makassar/foto home care.webp";
+import imageGaleriBatu1 from "../assets/image_galeri/Batu/foto ppid batu.png";
+import imageGaleriBatu2 from "../assets/image_galeri/Batu/foto ppid batu.png";
+import imageGaleriBatu3 from "../assets/image_galeri/Batu/foto ppid batu.png";
+import imageGaleriBalikpapan1 from "../assets/image_galeri/Balikpapan/foto ppid balikpapan.webp";
+import imageGaleriBalikpapan2 from "../assets/image_galeri/Balikpapan/foto mpp.webp";
+import imageGaleriBekasi1 from "../assets/image_galeri/Bekasi/foto bekasi kota.webp";
+import imageGaleriBekasi2 from "../assets/image_galeri/Bekasi/ppid bekasi.webp";
+import imageGaleriBekasi3 from "../assets/image_galeri/Bekasi/foto cctv.webp";
 
 export const dataSmartCity = [
   {
@@ -335,17 +343,17 @@ export const galeri = [
       {
         id: 1,
         image: imageGaleriMakassar1,
-        desc: "",
+        desc: "War Room Makassar adalah pusat komando yang memonitor aktivitas kota secara real-time. Ruangan ini dilengkapi dengan layar besar yang menampilkan data dari berbagai perangkat, termasuk CCTV, untuk memantau lalu lintas, keamanan, pelayanan kesehatan, hingga kebersihan kota.",
       },
       {
         id: 2,
         image: imageGaleriMakassar2,
-        desc: "",
+        desc: "Makassar mengembangkan sistem Smart Parking yang memungkinkan warga untuk mencari dan memesan tempat parkir di area padat, seperti pusat perbelanjaan dan perkantoran. ",
       },
       {
         id: 3,
         image: imageGaleriMakassar3,
-        desc: "",
+        desc: "Home Care Dottoro'ta adalah layanan kesehatan gratis yang ditujukan untuk warga Makassar, khususnya yang membutuhkan layanan medis segera atau darurat di rumah",
       },
     ],
   },
@@ -354,17 +362,178 @@ export const galeri = [
     name: "Batu",
     link: "https://www.youtube.com/embed/khiz3KW9ZTw?si=rIeG3CVxzUFebmfC",
     thumbnail: thumbnailGaleri8,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBatu1,
+        desc: "Website Kota Batu berfungsi sebagai portal utama yang memuat berbagai informasi, berita, kebijakan, dan program dari Pemerintah Kota Batu.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBatu2,
+        desc: "PPID (Pejabat Pengelola Informasi dan Dokumentasi) Kota Batu adalah unit layanan yang bertugas mengelola informasi dan dokumentasi di lingkup Pemerintah Kota Batu, Jawa Timur.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBatu3,
+        desc: "Si Kanda Prabu adalah sebuah sistem informasi berbasis digital yang diterapkan di Kota Batu, dan dirancang untuk memantau dan mengelola retribusi kendaraan wisata dan lalu lintas di kawasan wisata. ",
+      },
+    ],
   },
   {
     id: 9,
     name: "Balikpapan",
     link: "https://www.youtube.com/embed/kDbY3N8ldGU?si=a2uYfbBTMaZIecKq",
     thumbnail: thumbnailGaleri9,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBalikpapan1,
+        desc: "PPID Balikpapan adalah lembaga Pemerintah Kota Baikpapan yang memastikan keterbukaan informasi publik dan memberikan pelayanan informasi yang transparan dan akuntabel.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBalikpapan2,
+        desc: "Mal Pelayanan Publik, membuat masyarakat dapat mengurus berbagai administrasi, izin, dan layanan lainnya tanpa harus mengunjungi banyak kantor, sehingga lebih hemat waktu dan efisien.",
+      },
+    ],
   },
   {
     id: 10,
     name: "Bekasi",
     link: "https://www.youtube.com/embed/WL78Z3B_3cs?si=1-0W6HWYeOpj8NDb",
     thumbnail: thumbnailGaleri10,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
+  },
+  {
+    id: 11,
+    name: "Medan",
+    link: "",
+    thumbnail: "",
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
+  },
+  {
+    id: 12,
+    name: "Pekanbaru",
+    link: "",
+    thumbnail: "",
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
+  },
+  {
+    id: 13,
+    name: "Samarinda",
+    link: "",
+    thumbnail: "",
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
+  },
+  {
+    id: 14,
+    name: "Palembang",
+    link: "",
+    thumbnail: "",
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
+  },
+  {
+    id: 15,
+    name: "Manado",
+    link: "",
+    thumbnail: "",
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriBekasi1,
+        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+      },
+      {
+        id: 2,
+        image: imageGaleriBekasi2,
+        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+      },
+      {
+        id: 3,
+        image: imageGaleriBekasi3,
+        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+      },
+    ],
   },
 ];

@@ -47,7 +47,7 @@ import imageGaleriYogya3 from "../assets/image_galeri/Yogyakarta/foto free wifi.
 import imageGaleriSemarang1 from "../assets/image_galeri/Semarang/foto semarang smart city.webp";
 import imageGaleriSemarang2 from "../assets/image_galeri/Semarang/foto satu data semarang.webp";
 import imageGaleriSemarang3 from "../assets/image_galeri/Semarang/foto e pbb.webp";
-import imageGaleriSemarang4 from "../assets/image_galeri/Semarang/foto smart health.webp";
+import imageGaleriSemarang4 from "../assets/image_galeri/Semarang/foto yohsehat.webp";
 import imageGaleriMakassar1 from "../assets/image_galeri/Makassar/war room.webp";
 import imageGaleriMakassar2 from "../assets/image_galeri/Makassar/foto smart parking.webp";
 import imageGaleriMakassar3 from "../assets/image_galeri/Makassar/foto home care.webp";
@@ -59,6 +59,18 @@ import imageGaleriBalikpapan2 from "../assets/image_galeri/Balikpapan/foto mpp.w
 import imageGaleriBekasi1 from "../assets/image_galeri/Bekasi/foto bekasi kota.webp";
 import imageGaleriBekasi2 from "../assets/image_galeri/Bekasi/ppid bekasi.webp";
 import imageGaleriBekasi3 from "../assets/image_galeri/Bekasi/foto cctv.webp";
+import imageGaleriMedan1 from "../assets/image_galeri/Medan/foto website medan.webp";
+import imageGaleriMedan2 from "../assets/image_galeri/Medan/foto mercy.webp";
+import imageGaleriPekanbaru1 from "../assets/image_galeri/Pekanbaru/foto web pekanbaru.webp";
+import imageGaleriPekanbaru2 from "../assets/image_galeri/Pekanbaru/foto ppid pekanbaru.webp";
+import imageGaleriSamarinda1 from "../assets/image_galeri/Samarinda/foto web samarinda.webp";
+import imageGaleriSamarinda2 from "../assets/image_galeri/Samarinda/foto command center samarinda.webp";
+import imageGaleriSamarinda3 from "../assets/image_galeri/Samarinda/foto ppid samarinda.webp";
+import imageGaleriPalembang1 from "../assets/image_galeri/Palembang/foto web palembang.webp";
+import imageGaleriPalembang2 from "../assets/image_galeri/Palembang/foto sidemang.webp";
+import imageGaleriPalembang3 from "../assets/image_galeri/Palembang/foto si bucil.webp";
+import imageGaleriManado1 from "../assets/image_galeri/Manado/foto web manado.webp";
+import imageGaleriManado2 from "../assets/image_galeri/Manado/foto satu data manado.webp";
 
 export const dataSmartCity = [
   {
@@ -149,28 +161,33 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Bandung Command Center (BCC)",
         image: imageGaleriBandung1,
         desc: "BCC merupakan upaya berbasis teknologi informasi dan komunikasi yang mewujudkan tata kelola pemerintahan serta meningkatkan kualitas pelayanan publik yang lebih baik lagi.",
       },
       {
         id: 2,
+        title: "Bandung Smart City",
         image: imageGaleriBandung2,
         desc: "Aplikasi Bandung Smart City dirancang untuk memberikan informasi penting dan layanan langsung bagi warga yang menyediakan informasi tentang layanan kesehatan, pendidikan, transportasi, dan fasilitas publik di Bandung.",
       },
       {
         id: 3,
+        title: "Open Data Kota Bandung",
         image: imageGaleriBandung3,
         desc: "Open Data Kota Bandung hadir sebagai portal data terbuka yang menyediakan data akurat dari seluruh organisasi perangkat daerah di Kota Bandung.",
       },
       {
         id: 4,
+        title: "Bandung Technopolis",
         image: imageGaleriBandung4,
         desc: "Technopolis merupakan infrastruktur yang mendorong inovasi dan komersialisasi produk-produk teknologi milik Institut Teknologi Bandung (ITB). Kawasan ini disebut pula dengan ITB Innovation Park (IIP) Bandung Technopolis.",
       },
       {
         id: 5,
+        title: "Mesin Terminal Parkir Elektronik (TPE)",
         image: imageGaleriBandung5,
-        desc: "Mesin Terminal Parkir Elektronik (TPE) merupakan sebuah mesin yang berfungsi untuk membayar retribusi parkir di pinggir jalan yang dilakukan secara mandiri oleh pengguna.",
+        desc: "Mesin TPE merupakan sebuah mesin yang berfungsi untuk membayar retribusi parkir di pinggir jalan yang dilakukan secara mandiri oleh pengguna.",
       },
     ],
   },
@@ -182,31 +199,37 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Suroboyo Bus",
         image: imageGaleriSurabaya1,
         desc: "Suroboyo Bus adalah sebuah layanan transportasi bus yang dimiliki oleh Pemerintah Kota Surabaya yang dirancang dengan fasilitas modern dan berfungsi sebagai transportasi umum di wilayah Surabaya, mirip dengan bus kota.",
       },
       {
         id: 2,
+        title: "Wirawiri Suroboyo",
         image: imageGaleriSurabaya2,
-        desc: "Wira-Wiri Suroboyo adalah layanan transportasi umum di Kota Surabaya yang bertujuan untuk memudahkan mobilitas warga serta mengurangi kemacetan dan polusi. Layanan ini menggunakan minivan yang menjangkau area yang mungkin tidak terjangkau oleh angkutan umum konvensional.",
+        desc: "Wirawiri Suroboyo adalah layanan transportasi umum di Kota Surabaya yang bertujuan untuk memudahkan mobilitas warga serta mengurangi kemacetan dan polusi. Layanan ini menggunakan minivan yang menjangkau area yang mungkin tidak terjangkau oleh angkutan umum konvensional.",
       },
       {
         id: 3,
+        title: "Surabaya Single Window (SSW)",
         image: imageGaleriSurabaya3,
-        desc: "Surabaya Single Window (SSW) adalah sistem yang memungkinkan dilakukannya suatu penyampaian data dan informasi secara tunggal, pemrosesan data dan informasi secara tunggal dan sinkron serta pembuatan keputusan sesuai dengan tugas dan fungsi masing-masing perangkat daerah dalam hal pelayanan perizinan dan non perizinan.",
+        desc: "SSW adalah sistem yang memungkinkan dilakukannya suatu penyampaian data dan informasi secara tunggal, pemrosesan data dan informasi secara tunggal dan sinkron serta pembuatan keputusan sesuai dengan tugas dan fungsi masing-masing perangkat daerah dalam hal pelayanan perizinan dan non perizinan.",
       },
       {
         id: 4,
+        title: "Surabaya Intelligent Transport System (SITS)",
         image: imageGaleriSurabaya4,
         desc: "SITS adalah sistem transportasi cerdas yang menggunakan teknologi informasi dan komunikasi untuk memantau, mengatur, dan mengoptimalkan lalu lintas di Surabaya.",
       },
       {
         id: 5,
+        title: "e - Health Surabaya",
         image: imageGaleriSurabaya5,
-        desc: "E-health merupakan sistem informasi pendaftaran pasien online yang diselenggarakan Dinas Kesehatan Kota Surabaya.",
+        desc: "e - Health merupakan sistem informasi pendaftaran pasien online yang diselenggarakan Dinas Kesehatan Kota Surabaya.",
       },
       {
         id: 6,
+        title: "PEKEN Surabaya",
         image: imageGaleriSurabaya6,
         desc: "PEKEN Surabaya adalah aplikasi yang digunakan Pegawai Pemerintah Kota Surabaya ataupun masyarakat umum untuk melakukan belanja berbagai macam kebutuhan sehari-hari pada Toko Kelontong, UMKM maupun SWK yang tersedia di setiap Kecamatan di Kota Surabaya.",
       },
@@ -220,41 +243,49 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Jakarta Kini (JAKI)",
         image: imageGaleriJakarta1,
-        desc: "Aplikasi Jakarta Kini atau JAKI merupakan super-app Jakarta yang menyediakan layanan satu pintu untuk membantu keseharian warga. ",
+        desc: "Aplikasi JAKI merupakan super-app Jakarta yang menyediakan layanan satu pintu untuk membantu keseharian warga. ",
       },
       {
         id: 2,
+        title: "MRT Jakarta",
         image: imageGaleriJakarta2,
         desc: "PT MRT Jakarta merupakan penyedia jasa transportasi publik terdepan yang berkomitmen untuk mendorong pertumbuhan ekonomi melalui peningkatan mobilitas, pengurangan kemacetan, dan pengembangan sistem transit perkotaan. ",
       },
       {
         id: 3,
+        title: "Future City Hub",
         image: imageGaleriJakarta3,
         desc: "Future City Hub merupakan ruang temu bagi Pemerintah Provinsi DKI Jakarta sebagai problem owner dengan startup, akademisi, serta mitra lain sebagai problem solvers untuk memecahkan masalah perkotaan.",
       },
       {
         id: 4,
+        title: "Cepat Respon Masyarakat (CRM)",
         image: imageGaleriJakarta4,
-        desc: "Cepat Respon Masyarakat (CRM) mengintegrasikan seluruh kanal pengaduan resmi Pemprov DKI Jakarta. Laporan pengaduan yang masuk ditindaklanjuti secara lebih responsif, efisien, dan transparan.",
+        desc: "CRM mengintegrasikan seluruh kanal pengaduan resmi Pemprov DKI Jakarta. Laporan pengaduan yang masuk ditindaklanjuti secara lebih responsif, efisien, dan transparan.",
       },
       {
         id: 5,
+        title: "Pantau Banjir Jakarta",
         image: imageGaleriJakarta5,
         desc: "Pantau Banjir merupakan pusat informasi terkait banjir dan cuaca di Jakarta secara lengkap. Warga dapat mengaksesnya kapan saja dan di mana saja. ",
       },
       {
         id: 6,
+        title: "JakPeta",
         image: imageGaleriJakarta6,
         desc: "JakPeta merupakan fitur yang mempermudah kamu untuk menjelajah kuliner dan tempat wisata di Jakarta dengan sekali sentuhan. Menyediakan berbagai macam informasi dalam sejumlah kategori terdekat dari lokasimu, seperti fasilitas umum, transportasi, hingga fasilitas kesehatan.",
       },
       {
         id: 7,
+        title: "Digital Xperience",
         image: imageGaleriJakarta7,
-        desc: "Digital Experience Jakarta adalah konsep pengalaman digital terpadu yang dirancang untuk mempermudah interaksi masyarakat dan wisatawan dengan berbagai layanan, budaya, serta gaya hidup Jakarta melalui platform digital.",
+        desc: "Digital Xperience adalah konsep pengalaman digital terpadu yang dirancang untuk mempermudah interaksi masyarakat dan wisatawan dengan berbagai layanan, budaya, serta gaya hidup Jakarta melalui platform digital.",
       },
       {
         id: 8,
+        title: "Journal of Future Cities",
         image: imageGaleriJakarta8,
         desc: "Journal of Future Cities adalah kumpulan jurnal ilmiah di balik terwujudnya inovasi smart city",
       },
@@ -268,18 +299,21 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Denpasar Cyber Monitor",
         image: imageGaleriDenpasar1,
-        desc: "Denpasar Cyber Monitor (DCM) adalah sebuah sistem pengawasan digital yang diterapkan oleh pemerintah Kota Denpasar untuk memantau isu-isu atau masalah yang muncul di media sosial",
+        desc: "DCM adalah sebuah sistem pengawasan digital yang diterapkan oleh pemerintah Kota Denpasar untuk memantau isu-isu atau masalah yang muncul di media sosial",
       },
       {
         id: 2,
+        title: "Denpasar Tourism",
         image: imageGaleriDenpasar2,
-        desc: "Denpasar Tourism Information merupakan aplikasi pariwisata digital yang memberikan informasi tentang destinasi wisata, acara budaya, dan tempat menarik di kota.",
+        desc: "Denpasar Tourism merupakan aplikasi pariwisata digital yang memberikan informasi tentang destinasi wisata, acara budaya, dan tempat menarik di kota.",
       },
       {
         id: 3,
+        title: "Satu Data Denpasar",
         image: imageGaleriDenpasar3,
-        desc: "Satu Data Kota Denpasar ditujukan untuk mempermudah publik dalam mengakses data dan informasi mengenai Kota Denpasar.",
+        desc: "Satu Data Denpasar ditujukan untuk mempermudah publik dalam mengakses data dan informasi mengenai Kota Denpasar.",
       },
     ],
   },
@@ -291,18 +325,21 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Jogja Smart Service (JSS)",
         image: imageGaleriYogya1,
-        desc: "Jogja Smart Service adalah aplikasi layanan terpadu dari Pemerintah Kota Yogyakarta yang memudahkan kita untuk mengakses berbagai layanan publik, membawa pelayanan kota langsung ke genggaman tangan kita.",
+        desc: "JSS adalah aplikasi layanan terpadu dari Pemerintah Kota Yogyakarta yang memudahkan kita untuk mengakses berbagai layanan publik, membawa pelayanan kota langsung ke genggaman tangan kita.",
       },
       {
         id: 2,
+        title: "Pejabat Pengelola Informasi dan Dokumentasi Yogyakarta",
         image: imageGaleriYogya2,
-        desc: "PPID Jogja (Pejabat Pengelola Informasi dan Dokumentasi Yogyakarta) adalah lembaga yang memastikan bahwa setiap warga negara dapat memperoleh akses informasi publik yang terbuka, transparan, dan dapat diandalkan",
+        desc: "PPID Jogja adalah lembaga yang memastikan bahwa setiap warga negara dapat memperoleh akses informasi publik yang terbuka, transparan, dan dapat diandalkan",
       },
       {
         id: 3,
+        title: "FreeHotspot JSS",
         image: imageGaleriYogya3,
-        desc: "Freehotspot JSS adalah layanan internet gratis dari Pemerintah  Kota  Yogyakarta, cukup sekali login menggunakan Username dan Password JSS (Jogja  Smart  Service), pengguna otomatis akan terhubung dan langsung menikmati internet gratis",
+        desc: "FreeHotspot JSS adalah layanan internet gratis dari Pemerintah  Kota  Yogyakarta, cukup sekali login menggunakan Username dan Password JSS (Jogja  Smart  Service), pengguna otomatis akan terhubung dan langsung menikmati internet gratis",
       },
     ],
   },
@@ -314,23 +351,27 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Smart City Semarang",
         image: imageGaleriSemarang1,
         desc: "Smart City Semarang adalah inisiatif yang dilakukan oleh Pemerintah Kota Semarang untuk menciptakan kota yang lebih terintegrasi, efisien, aman, dan berkelanjutan melalui pemanfaatan teknologi digital dan data.",
       },
       {
         id: 2,
+        title: "Semarang Satu Data",
         image: imageGaleriSemarang2,
-        desc: "Portal Satu Data adalah website untuk mencari data tentang Kota Semarang, sekarang bisa kapan dan dimana saja. Cepat, mudah dan akurat dengan berbagai fitur yang bermanfaat.",
+        desc: "Semarang Satu Data adalah website untuk mencari data tentang Kota Semarang, sekarang bisa kapan dan dimana saja. Cepat, mudah dan akurat dengan berbagai fitur yang bermanfaat.",
       },
       {
         id: 3,
+        title: "e - PBB Kota Semarang",
         image: imageGaleriSemarang3,
-        desc: "E - PBB merupakan layanan pembayaran Pajak Bumi dan Bangunan (PBB) secara online untuk memudahkan masyarakat membayar pajak tanpa harus datang ke kantor pemerintah yang disediakan oleh Pemerintah Kota Semarang.",
+        desc: "e - PBB merupakan layanan pembayaran Pajak Bumi dan Bangunan (PBB) secara online untuk memudahkan masyarakat membayar pajak tanpa harus datang ke kantor pemerintah yang disediakan oleh Pemerintah Kota Semarang.",
       },
       {
         id: 4,
+        title: "Yoh Sehat",
         image: imageGaleriSemarang4,
-        desc: "Smart Health merupakan website dari Pemerintah Kota Semarang yang menyediakan layanan kesehatan digital yang memungkinkan warga untuk mendaftar dan berkonsultasi secara online.",
+        desc: "Yoh Sehat adalah sebuah aplikasi berbasis digital yang dikembangkan oleh Pemerintah Kota Semarang sebagai bagian dari inisiatif smart city untuk mempermudah akses masyarakat terhadap layanan kesehatan.",
       },
     ],
   },
@@ -342,16 +383,19 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "War Room",
         image: imageGaleriMakassar1,
         desc: "War Room Makassar adalah pusat komando yang memonitor aktivitas kota secara real-time. Ruangan ini dilengkapi dengan layar besar yang menampilkan data dari berbagai perangkat, termasuk CCTV, untuk memantau lalu lintas, keamanan, pelayanan kesehatan, hingga kebersihan kota.",
       },
       {
         id: 2,
+        title: "Smart Parking",
         image: imageGaleriMakassar2,
         desc: "Makassar mengembangkan sistem Smart Parking yang memungkinkan warga untuk mencari dan memesan tempat parkir di area padat, seperti pusat perbelanjaan dan perkantoran. ",
       },
       {
         id: 3,
+        title: "Home Care Dottoro'ta",
         image: imageGaleriMakassar3,
         desc: "Home Care Dottoro'ta adalah layanan kesehatan gratis yang ditujukan untuk warga Makassar, khususnya yang membutuhkan layanan medis segera atau darurat di rumah",
       },
@@ -365,18 +409,22 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Kota Batu",
         image: imageGaleriBatu1,
-        desc: "Website Kota Batu berfungsi sebagai portal utama yang memuat berbagai informasi, berita, kebijakan, dan program dari Pemerintah Kota Batu.",
+        desc: "Kota Batu berfungsi sebagai portal utama yang memuat berbagai informasi, berita, kebijakan, dan program dari Pemerintah Kota Batu.",
       },
       {
         id: 2,
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Batu",
         image: imageGaleriBatu2,
-        desc: "PPID (Pejabat Pengelola Informasi dan Dokumentasi) Kota Batu adalah unit layanan yang bertugas mengelola informasi dan dokumentasi di lingkup Pemerintah Kota Batu, Jawa Timur.",
+        desc: "PPID ( adalah unit layanan yang bertugas mengelola informasi dan dokumentasi di lingkup Pemerintah Kota Batu, Jawa Timur.",
       },
       {
         id: 3,
+        title:
+          "Sistem Informasi Akses Keuangan Daerah Pemerintah Kota Batu (SiKANDA PRABU)",
         image: imageGaleriBatu3,
-        desc: "Si Kanda Prabu adalah sebuah sistem informasi berbasis digital yang diterapkan di Kota Batu, dan dirancang untuk memantau dan mengelola retribusi kendaraan wisata dan lalu lintas di kawasan wisata. ",
+        desc: "SiKANDA PRABU adalah sebuah sistem informasi berbasis digital yang diterapkan di Kota Batu, dan dirancang untuk memantau dan mengelola retribusi kendaraan wisata dan lalu lintas di kawasan wisata. ",
       },
     ],
   },
@@ -388,11 +436,13 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Balikpapan",
         image: imageGaleriBalikpapan1,
         desc: "PPID Balikpapan adalah lembaga Pemerintah Kota Baikpapan yang memastikan keterbukaan informasi publik dan memberikan pelayanan informasi yang transparan dan akuntabel.",
       },
       {
         id: 2,
+        title: "Mal Pelayanan Publik Balikpapan",
         image: imageGaleriBalikpapan2,
         desc: "Mal Pelayanan Publik, membuat masyarakat dapat mengurus berbagai administrasi, izin, dan layanan lainnya tanpa harus mengunjungi banyak kantor, sehingga lebih hemat waktu dan efisien.",
       },
@@ -406,16 +456,19 @@ export const galeri = [
     photo: [
       {
         id: 1,
+        title: "Kota Bekasi",
         image: imageGaleriBekasi1,
         desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
       },
       {
         id: 2,
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Bekasi",
         image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+        desc: "PPID Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
       },
       {
         id: 3,
+        title: "CCTV Kota Bekasi",
         image: imageGaleriBekasi3,
         desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
       },
@@ -429,18 +482,21 @@ export const galeri = [
     photo: [
       {
         id: 1,
-        image: imageGaleriBekasi1,
-        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+        title: "Kota Medan",
+        image: imageGaleriMedan1,
+        desc: "Website Kota Medan menjadi pusat informasi terkait program pemerintah, berita, layanan publik, dan transparansi anggaran. Masyarakat juga dapat mengakses layanan administrasi seperti pembuatan KTP, KK, izin usaha, serta menyampaikan pengaduan secara daring melalui fitur LAPOR.",
       },
       {
         id: 2,
-        image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+        title: "Medan Smart City (Mercy)",
+        image: imageGaleriMedan2,
+        desc: "Mercy merupakan aplikasi yang menjadi sebuah wadah preferensi bagi masyarakat sebagai pusat informasi untuk wilayah Kota Medan.",
       },
       {
         id: 3,
-        image: imageGaleriBekasi3,
-        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Medan",
+        image: imageGaleriMedan2,
+        desc: "PPID Medan adalah lembaga yang bertanggung jawab atas pengelolaan dan penyebarluasan informasi publik di lingkungan Pemerintah Kota Medan",
       },
     ],
   },
@@ -452,18 +508,15 @@ export const galeri = [
     photo: [
       {
         id: 1,
-        image: imageGaleriBekasi1,
-        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+        title: "Kota Pekanbaru",
+        image: imageGaleriPekanbaru1,
+        desc: "Website Kota Pekanbaru menyediakan berbagai informasi penting, termasuk program-program pemerintah, kebijakan strategis, dan berita terkini yang relevan dengan perkembangan kota.",
       },
       {
         id: 2,
-        image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
-      },
-      {
-        id: 3,
-        image: imageGaleriBekasi3,
-        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Pekanbaru",
+        image: imageGaleriPekanbaru2,
+        desc: "PPID Kota Pekanbaru adalah unit kerja yang bertanggung jawab untuk mengelola informasi publik yang berada di lingkungan Pemerintah Kota Pekanbaru. ",
       },
     ],
   },
@@ -475,18 +528,21 @@ export const galeri = [
     photo: [
       {
         id: 1,
-        image: imageGaleriBekasi1,
-        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+        title: "Kota Samarinda",
+        image: imageGaleriSamarinda1,
+        desc: "Website Kota Samarinda adalah website resmi Pemerintah Kota Samarinda adalah platform digital utama yang menyediakan informasi dan layanan kepada masyarakat Samarinda.",
       },
       {
         id: 2,
-        image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+        title: "Command Center Samarinda",
+        image: imageGaleriSamarinda2,
+        desc: "Command Center Samarinda adalah pusat kendali dan pemantauan terpadu yang mendukung pengelolaan berbagai aspek kota secara digital dan real-time.",
       },
       {
         id: 3,
-        image: imageGaleriBekasi3,
-        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+        title: "Pejabat Pengelola Informasi dan Dokumentasi (PPID) Samarinda",
+        image: imageGaleriSamarinda3,
+        desc: "PPID Kota Samarinda adalah unit yang bertanggung jawab untuk mengelola dan menyediakan informasi publik di lingkungan Pemerintah Kota Samarinda.",
       },
     ],
   },
@@ -498,18 +554,21 @@ export const galeri = [
     photo: [
       {
         id: 1,
-        image: imageGaleriBekasi1,
-        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+        title: "Website Kota Palembang",
+        image: imageGaleriPalembang1,
+        desc: "Website Kota Palembang dirancang untuk mendukung konsep smart city dengan mengintegrasikan berbagai fitur yang mempermudah warga mengakses informasi pemerintahan, berita terkini, dan layanan publik secara transparan dan efisien.",
       },
       {
         id: 2,
-        image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
+        title: "Sistem Informasi Demografi Palembang (Sidemang)",
+        image: imageGaleriPalembang2,
+        desc: "Sidemang adalah platform digital yang dikembangkan oleh Pemerintah Kota Palembang untuk mempermudah pengelolaan data demografi penduduk secara terintegrasi dan real-time. ",
       },
       {
         id: 3,
-        image: imageGaleriBekasi3,
-        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+        title: "Sistem Informasi Bimbingan dan Konseling Online (Si Bucil)",
+        image: imageGaleriPalembang3,
+        desc: "Si Bucil adalah platform digital yang disediakan oleh Pemerintah Kota Palembang untuk memberikan layanan bimbingan dan konseling secara daring kepada masyarakat, khususnya pelajar.",
       },
     ],
   },
@@ -521,18 +580,15 @@ export const galeri = [
     photo: [
       {
         id: 1,
-        image: imageGaleriBekasi1,
-        desc: "Website Kota Bekasi adalah pusat informasi utama yang berisi berbagai informasi dan layanan publik. Masyarakat dapat mengakses berita terbaru, pengumuman, kegiatan pemerintahan, informasi kebijakan, serta layanan administrasi secara daring.",
+        title: "Website Kota Manado",
+        image: imageGaleriManado1,
+        desc: "Website Kota Manado adalah portal digital yang menyediakan berbagai informasi mengenai kebijakan, program, dan layanan publik yang diselenggarakan oleh Pemerintah Kota Manado.",
       },
       {
         id: 2,
-        image: imageGaleriBekasi2,
-        desc: "PPID Kota Bekasi adalah lembaga yang bertanggung jawab dalam mengelola serta memberikan akses informasi kepada masyarakat sesuai dengan prinsip keterbukaan informasi publik.",
-      },
-      {
-        id: 3,
-        image: imageGaleriBekasi3,
-        desc: "CCTV Kota Bekasi adalah website untuk mengakses CCTV di lokasi tertentu di Kota Bekasi.",
+        title: "Satu Data Kota Manado",
+        image: imageGaleriManado2,
+        desc: "Satu Data Kota Manado adalah inisiatif Pemerintah Kota Manado yang bertujuan untuk mengintegrasikan dan menyelaraskan data di berbagai sektor pemerintahan, agar lebih mudah diakses, dikelola, dan digunakan dalam proses pengambilan keputusan.",
       },
     ],
   },

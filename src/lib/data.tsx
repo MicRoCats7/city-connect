@@ -42,6 +42,15 @@ import imageGaleriDenpasar1 from "../assets/image_galeri/Denpasar/foto cyber mon
 import imageGaleriDenpasar2 from "../assets/image_galeri/Denpasar/fotoDenpasar Tourism Information.webp";
 import imageGaleriDenpasar3 from "../assets/image_galeri/Denpasar/foto satu data denpasar.webp";
 import imageGaleriYogya1 from "../assets/image_galeri/Yogyakarta/foto jogja smart service.webp";
+import imageGaleriYogya2 from "../assets/image_galeri/Yogyakarta/foto ppid.webp";
+import imageGaleriYogya3 from "../assets/image_galeri/Yogyakarta/foto free wifi.webp";
+import imageGaleriSemarang1 from "../assets/image_galeri/Semarang/foto semarang smart city.webp";
+import imageGaleriSemarang2 from "../assets/image_galeri/Semarang/foto satu data semarang.webp";
+import imageGaleriSemarang3 from "../assets/image_galeri/Semarang/foto e pbb.webp";
+import imageGaleriSemarang4 from "../assets/image_galeri/Semarang/foto smart health.webp";
+import imageGaleriMakassar1 from "../assets/image_galeri/Makassar/war room.webp";
+import imageGaleriMakassar2 from "../assets/image_galeri/Makassar/foto smart parking.webp";
+import imageGaleriMakassar3 from "../assets/image_galeri/Makassar/foto home care.webp";
 
 export const dataSmartCity = [
   {
@@ -275,17 +284,17 @@ export const galeri = [
       {
         id: 1,
         image: imageGaleriYogya1,
-        desc: "",
+        desc: "Jogja Smart Service adalah aplikasi layanan terpadu dari Pemerintah Kota Yogyakarta yang memudahkan kita untuk mengakses berbagai layanan publik, membawa pelayanan kota langsung ke genggaman tangan kita.",
       },
       {
         id: 2,
-        image: "",
-        desc: "",
+        image: imageGaleriYogya2,
+        desc: "PPID Jogja (Pejabat Pengelola Informasi dan Dokumentasi Yogyakarta) adalah lembaga yang memastikan bahwa setiap warga negara dapat memperoleh akses informasi publik yang terbuka, transparan, dan dapat diandalkan",
       },
       {
         id: 3,
-        image: "",
-        desc: "",
+        image: imageGaleriYogya3,
+        desc: "Freehotspot JSS adalah layanan internet gratis dari Pemerintah  Kota  Yogyakarta, cukup sekali login menggunakan Username dan Password JSS (Jogja  Smart  Service), pengguna otomatis akan terhubung dan langsung menikmati internet gratis",
       },
     ],
   },
@@ -294,12 +303,51 @@ export const galeri = [
     name: "Semarang",
     link: "https://www.youtube.com/embed/N_46mWMdmvQ?si=3qytRAOvCvSoCR1i",
     thumbnail: thumbnailGaleri6,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriSemarang1,
+        desc: "Smart City Semarang adalah inisiatif yang dilakukan oleh Pemerintah Kota Semarang untuk menciptakan kota yang lebih terintegrasi, efisien, aman, dan berkelanjutan melalui pemanfaatan teknologi digital dan data.",
+      },
+      {
+        id: 2,
+        image: imageGaleriSemarang2,
+        desc: "Portal Satu Data adalah website untuk mencari data tentang Kota Semarang, sekarang bisa kapan dan dimana saja. Cepat, mudah dan akurat dengan berbagai fitur yang bermanfaat.",
+      },
+      {
+        id: 3,
+        image: imageGaleriSemarang3,
+        desc: "E - PBB merupakan layanan pembayaran Pajak Bumi dan Bangunan (PBB) secara online untuk memudahkan masyarakat membayar pajak tanpa harus datang ke kantor pemerintah yang disediakan oleh Pemerintah Kota Semarang.",
+      },
+      {
+        id: 4,
+        image: imageGaleriSemarang4,
+        desc: "Smart Health merupakan website dari Pemerintah Kota Semarang yang menyediakan layanan kesehatan digital yang memungkinkan warga untuk mendaftar dan berkonsultasi secara online.",
+      },
+    ],
   },
   {
     id: 7,
     name: "Makassar",
     link: "https://www.youtube.com/embed/H_Oi9evsuBo?si=74qyqpeKxoXb8rDR",
     thumbnail: thumbnailGaleri7,
+    photo: [
+      {
+        id: 1,
+        image: imageGaleriMakassar1,
+        desc: "",
+      },
+      {
+        id: 2,
+        image: imageGaleriMakassar2,
+        desc: "",
+      },
+      {
+        id: 3,
+        image: imageGaleriMakassar3,
+        desc: "",
+      },
+    ],
   },
   {
     id: 8,

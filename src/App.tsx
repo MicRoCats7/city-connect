@@ -8,7 +8,7 @@ import SmartCity from "./components/SmartCity"
 
 function App() {
   return (
-    <main className="h-full bg-[#101010]">
+    <main className="h-full bg-[#101010] overflow-hidden">
       <Navbar />
       <Header />
       <SmartCity />

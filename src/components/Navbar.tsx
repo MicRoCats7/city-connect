@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.svg";
-import { NavItems } from "@/lib/NavItems";
+import logoBlack from "@/assets/logo-black.svg";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -8,9 +8,37 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import NavbarMobile from "./NavbarMobile";
+import { useTranslation } from "react-i18next";
+import { IoEarth } from "react-icons/io5";
 
 function Navbar() {
+    const { t, i18n } = useTranslation();
     const [scrolled, setScrolled] = useState(false);
+    const [activeId, setActiveId] = useState<string | null>(null);
+
+    const NavItems = [
+        {
+            title: t('navbar.home'),
+            url: "/",
+        },
+        {
+            title: t('navbar.smart_city'),
+            url: "#Kenali Smart City",
+        },
+        {
+            title: t('navbar.news'),
+            url: "#Berita",
+        },
+        {
+            title: t('navbar.gallery'),
+            url: "#Galeri",
+        },
+        {
+            title: t('navbar.maps_smart_city'),
+            url: "#Peta Smart City",
+        }
+    ];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,49 +49,91 @@ function Navbar() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const handleNavClick = (e: any, title: any) => {
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setActiveId(entry.target.id);
+                    }
+                });
+            },
+            {
+                root: null,
+                threshold: 0.6,
+            }
+        );
+
+        NavItems.forEach((item) => {
+            const section = document.getElementById(item.title);
+            if (section) observer.observe(section);
+        });
+
+        return () => observer.disconnect();
+    }, []);
+
+    const handleNavClick = (e: React.MouseEvent, id: string) => {
         e.preventDefault();
-        const element = document.getElementById(title);
+        const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
         }
     };
 
+    const handleLanguageChange = (language: string) => {
+        i18n.changeLanguage(language);
+    };
+
     return (
         <section
-            className={`py-8 fixed w-full top-0 z-50 transition-colors duration-300 ${scrolled ? "bg-white/50 shadow-lg" : "bg-transparent"
+            className={`py-6 desktop:py-8 fixed w-full top-0 z-50 transition-colors duration-300 ${scrolled ? "bg-white shadow-lg" : "bg-transparent"
                 }`}
         >
-            <div className="flex items-center justify-between wrapper">
-                <img src={logo} alt="logo" />
-                <div className="flex items-center gap-10">
+            <div className="flex items-center justify-between max-w-[1440px] mx-auto px-4 tablet:px-12 desktop:px-36">
+                <img src={scrolled ? logoBlack : logo} alt="logo" className="w-32 tablet:w-40 desktop:w-auto" />
+                <div className="hidden tablet:hidden desktop:flex items-center gap-10">
                     {NavItems.map((item, index) => {
-                        const active = item.url === window.location.pathname
-                            ? "text-white font-general-sans-medium"
-                            : "text-gray-700 font-general-sans-medium";
+                        const isActive = activeId === item.title;
                         return (
                             <a
                                 key={index}
                                 href={item.url}
                                 onClick={(e) => handleNavClick(e, item.title)}
-                                className={active}
+                                className={`transition-colors duration-300 ${scrolled ? "text-black" : "text-white"
+                                    } ${isActive ? "font-general-sans-medium underline" : "font-general-sans-regular"}`}
                             >
                                 {item.title}
                             </a>
                         );
                     })}
                 </div>
-                <DropdownMenu>
-                    <DropdownMenuTrigger className="text-white flex items-center gap-2 outline-none font-general-sans-medium">
-                        ID
-                        <MdKeyboardArrowDown size={20} color={scrolled ? "black" : "white"} />
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent className="rounded-xl">
-                        <DropdownMenuItem className="bg-white cursor-pointer font-general-sans-medium">
-                            EN
-                        </DropdownMenuItem>
-                    </DropdownMenuContent>
-                </DropdownMenu>
+                <div className="hidden desktop:block">
+                    <DropdownMenu>
+                        <DropdownMenuTrigger className={`${scrolled ? "text-black" : "text-white"} flex items-center gap-2 outline-none font-general-sans-medium`}>
+                            {i18n.language === "id" ? "ID" : "EN"}
+                            <MdKeyboardArrowDown size={20} color={scrolled ? "black" : "white"} />
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent className="rounded-xl">
+                            <DropdownMenuItem
+                                className="bg-white cursor-pointer font-general-sans-medium"
+                                onClick={() => handleLanguageChange("id")}
+                            >
+                                ID
+                                <IoEarth size={25} />
+                            </DropdownMenuItem>
+                            <DropdownMenuItem
+                                className="bg-white cursor-pointer font-general-sans-medium"
+                                onClick={() => handleLanguageChange("en")}
+                            >
+                                EN
+                                <IoEarth size={25} />
+                            </DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
+                </div>
+                <div className="block desktop:hidden">
+                    <NavbarMobile />
+                </div>
             </div>
         </section>
     );

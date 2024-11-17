@@ -1,14 +1,3 @@
-import smartGovernance from "../assets/icon_smart_city/smart-governance.svg";
-import smartEnvironment from "../assets/icon_smart_city/smart-environment.svg";
-import smartSociety from "../assets/icon_smart_city/smart-society.svg";
-import smartLiving from "../assets/icon_smart_city/smart-living.svg";
-import smartEconomy from "../assets/icon_smart_city/smart-economy.svg";
-import smartBranding from "../assets/icon_smart_city/smart-branding.svg";
-import imageBerita1 from "../assets/image_berita/foto jaki.webp";
-import imageBerita2 from "../assets/image_berita/foto bayar listrik gopay.webp";
-import imageBerita3 from "../assets/image_berita/foto CRM.webp";
-import imageBerita4 from "../assets/image_berita/foto mobile jkn.webp";
-import imageBerita5 from "../assets/image_berita/foto e money suroboyo bus.webp";
 import thumbnailGaleri1 from "../assets/image_galeri/thumbnail/jakarta.webp";
 import thumbnailGaleri2 from "../assets/image_galeri/thumbnail/surabaya.webp";
 import thumbnailGaleri3 from "../assets/image_galeri/thumbnail/bandung.webp";
@@ -51,9 +40,9 @@ import imageGaleriSemarang4 from "../assets/image_galeri/Semarang/foto yohsehat.
 import imageGaleriMakassar1 from "../assets/image_galeri/Makassar/war room.webp";
 import imageGaleriMakassar2 from "../assets/image_galeri/Makassar/foto smart parking.webp";
 import imageGaleriMakassar3 from "../assets/image_galeri/Makassar/foto home care.webp";
-import imageGaleriBatu1 from "../assets/image_galeri/Batu/foto ppid batu.png";
-import imageGaleriBatu2 from "../assets/image_galeri/Batu/foto ppid batu.png";
-import imageGaleriBatu3 from "../assets/image_galeri/Batu/foto ppid batu.png";
+import imageGaleriBatu1 from "../assets/image_galeri/Batu/foto ppid batu.webp";
+import imageGaleriBatu2 from "../assets/image_galeri/Batu/foto ppid batu.webp";
+import imageGaleriBatu3 from "../assets/image_galeri/Batu/foto ppid batu.webp";
 import imageGaleriBalikpapan1 from "../assets/image_galeri/Balikpapan/foto ppid balikpapan.webp";
 import imageGaleriBalikpapan2 from "../assets/image_galeri/Balikpapan/foto mpp.webp";
 import imageGaleriBekasi1 from "../assets/image_galeri/Bekasi/foto bekasi kota.webp";
@@ -71,86 +60,6 @@ import imageGaleriPalembang2 from "../assets/image_galeri/Palembang/foto sideman
 import imageGaleriPalembang3 from "../assets/image_galeri/Palembang/foto si bucil.webp";
 import imageGaleriManado1 from "../assets/image_galeri/Manado/foto web manado.webp";
 import imageGaleriManado2 from "../assets/image_galeri/Manado/foto satu data manado.webp";
-
-export const dataSmartCity = [
-  {
-    id: 1,
-    title: "SMART GOVERNANCE",
-    desc: "Konsep tata kelola modern yang memanfaatkan teknologi digital untuk menciptakan pemerintahan yang lebih efisien, transparan, dan responsif. Dengan penerapan layanan e-Government, analisis data, serta partisipasi publik, smart governance meningkatkan kualitas layanan publik, mempercepat pengambilan keputusan berbasis data, dan mendorong keterlibatan masyarakat. Tujuan akhirnya adalah membangun kota pintar yang inklusif, berkelanjutan, dan adaptif terhadap kebutuhan warganya.",
-    icon: smartGovernance,
-    color: "#DB3A3C",
-  },
-  {
-    id: 2,
-    title: "SMART ENVIROMENT",
-    desc: "Konsep lingkungan cerdas yang menggabungkan teknologi dan data untuk menciptakan kota yang lebih bersih, berkelanjutan, dan sehat bagi warganya. Melalui pemantauan kualitas udara, manajemen energi hijau, pengelolaan limbah pintar, dan pelestarian sumber daya alam, smart environment bertujuan untuk mengurangi dampak lingkungan sekaligus meningkatkan kualitas hidup. Teknologi seperti sensor lingkungan dan sistem energi terbarukan memungkinkan kota untuk memantau dan mengelola sumber daya secara efisien, menciptakan masa depan yang lebih hijau dan sehat bagi semua.",
-    icon: smartEnvironment,
-    color: "#38D938",
-  },
-  {
-    id: 3,
-    title: "SMART SOCIETY",
-    desc: "Konsep masyarakat yang memanfaatkan teknologi untuk meningkatkan kualitas hidup, partisipasi, dan inklusivitas bagi semua warganya. Melalui akses yang lebih luas terhadap informasi, pendidikan digital, dan inovasi sosial, smart society mendorong pemberdayaan individu dan komunitas untuk berperan aktif dalam perkembangan kota. Dengan solusi digital yang mendukung kolaborasi, pendidikan, dan kesehatan, smart society menciptakan masyarakat yang terhubung, tanggap, dan siap menghadapi tantangan masa depan.",
-    icon: smartSociety,
-    color: "#1D24AD",
-  },
-  {
-    id: 4,
-    title: "SMART LIVING",
-    desc: "Konsep hidup cerdas yang mengintegrasikan teknologi ke dalam kehidupan sehari-hari untuk menciptakan lingkungan yang nyaman, aman, dan berkualitas bagi warga kota. Melalui solusi digital untuk layanan kesehatan, keamanan, perumahan, dan rekreasi, smart living menghadirkan pengalaman hidup yang lebih baik dan terhubung. Dengan fokus pada kenyamanan dan kesejahteraan, smart living memastikan warga memiliki akses mudah ke layanan publik dan fasilitas modern yang mendukung gaya hidup sehat dan seimbang.",
-    icon: smartLiving,
-    color: "#E0CD95",
-  },
-  {
-    id: 5,
-    title: "SMART ECONOMY",
-    desc: "Konsep ekonomi cerdas yang memanfaatkan teknologi untuk mendorong inovasi, produktivitas, dan daya saing di era digital. Melalui pengembangan bisnis berbasis teknologi, dukungan bagi startup, dan pemanfaatan data untuk pengambilan keputusan ekonomi, smart economy menciptakan lingkungan yang dinamis bagi wirausaha dan industri. Dengan fokus pada efisiensi, inklusivitas, dan keberlanjutan, smart economy membantu kota menjadi pusat ekonomi yang tangguh dan adaptif terhadap perubahan global.",
-    icon: smartEconomy,
-    color: "#E2AC40",
-  },
-  {
-    id: 6,
-    title: "SMART BRANDING",
-    desc: "Sebuah strategi membangun identitas kota yang kuat dan menarik dengan menggunakan teknologi dan inovasi digital. Melalui pencitraan yang autentik dan kampanye berbasis data, smart branding bertujuan untuk meningkatkan daya tarik kota bagi wisatawan, investor, dan warga lokal. Dengan menyoroti keunikan, potensi, dan kemajuan teknologi, smart branding membantu menciptakan reputasi kota yang modern, inklusif, dan berkelanjutan, sekaligus memupuk kebanggaan dan partisipasi warga dalam perkembangan kota.",
-    icon: smartBranding,
-    color: "#189FFF",
-  },
-];
-
-export const berita = [
-  {
-    id: 1,
-    title:
-      "Cara Cek Jadwal MRT,  LRT, TransJakarta, dan Mikrotrans di Aplikasi JAKI",
-    date: "19 Agu 2024",
-    image: imageBerita1,
-  },
-  {
-    id: 2,
-    title: "Cara Bayar Tagihan Listrik di Shopee Hanya dengan Beberapa Klik!",
-    date: "6 Nov 2024",
-    image: imageBerita2,
-  },
-  {
-    id: 3,
-    title: "Mengenal CRM Sebagai Kanal Aduan Masyarakat Jakarta",
-    date: "23 Jun 2022",
-    image: imageBerita3,
-  },
-  {
-    id: 4,
-    title:
-      "Kisah Peserta JKN Daftar Berobat Tanpa Antre Lewat Aplikasi JKN Mobile",
-    date: "22 Okt 2024",
-    image: imageBerita4,
-  },
-  {
-    id: 5,
-    title: "Naik Suroboyo Bus Kini Bisa Bayar Pakai Kartu e-Money",
-    date: "11 Okt 2021",
-    image: imageBerita5,
-  },
-];
 
 export const galeri = [
   {
@@ -487,6 +396,7 @@ export const galeri = [
   {
     id: 11,
     name: "Medan",
+    coor: [3.59293150898071, 98.67153464216551] as [number, number],
     link: "",
     thumbnail: "",
     photo: [
@@ -513,6 +423,7 @@ export const galeri = [
   {
     id: 12,
     name: "Pekanbaru",
+    coor: [0.5086410324484659, 101.45215764949828] as [number, number],
     link: "",
     thumbnail: "",
     photo: [
@@ -533,6 +444,7 @@ export const galeri = [
   {
     id: 13,
     name: "Samarinda",
+    coor: [-0.4942566648565013, 117.13919753946982] as [number, number],
     link: "",
     thumbnail: "",
     photo: [
@@ -559,6 +471,7 @@ export const galeri = [
   {
     id: 14,
     name: "Palembang",
+    coor: [-2.9765658626173677, 104.77737943331648] as [number, number],
     link: "",
     thumbnail: "",
     photo: [
@@ -585,6 +498,7 @@ export const galeri = [
   {
     id: 15,
     name: "Manado",
+    coor: [1.4742324012968449, 124.8428466919196] as [number, number],
     link: "",
     thumbnail: "",
     photo: [

@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "home": "Beranda",
+        "smart_city": "Kenali Smart City",
+        "news": "Berita",
+        "gallery": "Gallery",
+        "maps_smart_city": "Peta Smart City"
+    },
+    "lang": {
+        "id": "Bahasa Indonesia",
+        "en": "Bahasa Inggris"
+    },
+       "header": {
+        "title": "Selamat Datang di Masa Depan Indonesia"
+    },
+    "smart_city": {
+        "title": "KENALI SMART CITY",
+        "subtitle": "Aspek-Aspek yang Membentuk Smart City",
+        "titleGovernance": "Konsep tata kelola modern yang memanfaatkan teknologi digital untuk menciptakan pemerintahan yang lebih efisien, transparan, dan responsif. Dengan penerapan layanan e-Government, analisis data, serta partisipasi publik, smart governance meningkatkan kualitas layanan publik, mempercepat pengambilan keputusan berbasis data, dan mendorong keterlibatan masyarakat. Tujuan akhirnya adalah membangun kota pintar yang inklusif, berkelanjutan, dan adaptif terhadap kebutuhan warganya.",
+        "titleEnviroment": "Konsep lingkungan cerdas yang menggabungkan teknologi dan data untuk menciptakan kota yang lebih bersih, berkelanjutan, dan sehat bagi warganya. Melalui pemantauan kualitas udara, manajemen energi hijau, pengelolaan limbah pintar, dan pelestarian sumber daya alam, smart environment bertujuan untuk mengurangi dampak lingkungan sekaligus meningkatkan kualitas hidup. Teknologi seperti sensor lingkungan dan sistem energi terbarukan memungkinkan kota untuk memantau dan mengelola sumber daya secara efisien, menciptakan masa depan yang lebih hijau dan sehat bagi semua.",
+        "titleSociety": "Konsep lingkungan cerdas yang menggabungkan teknologi dan data untuk menciptakan kota yang lebih bersih, berkelanjutan, dan sehat bagi warganya. Melalui pemantauan kualitas udara, manajemen energi hijau, pengelolaan limbah pintar, dan pelestarian sumber daya alam, smart environment bertujuan untuk mengurangi dampak lingkungan sekaligus meningkatkan kualitas hidup. Teknologi seperti sensor lingkungan dan sistem energi terbarukan memungkinkan kota untuk memantau dan mengelola sumber daya secara efisien, menciptakan masa depan yang lebih hijau dan sehat bagi semua.",
+        "titleLiving": "Konsep hidup cerdas yang mengintegrasikan teknologi ke dalam kehidupan sehari-hari untuk menciptakan lingkungan yang nyaman, aman, dan berkualitas bagi warga kota. Melalui solusi digital untuk layanan kesehatan, keamanan, perumahan, dan rekreasi, smart living menghadirkan pengalaman hidup yang lebih baik dan terhubung. Dengan fokus pada kenyamanan dan kesejahteraan, smart living memastikan warga memiliki akses mudah ke layanan publik dan fasilitas modern yang mendukung gaya hidup sehat dan seimbang.",
+        "titleEconomy": "Konsep ekonomi cerdas yang memanfaatkan teknologi untuk mendorong inovasi, produktivitas, dan daya saing di era digital. Melalui pengembangan bisnis berbasis teknologi, dukungan bagi startup, dan pemanfaatan data untuk pengambilan keputusan ekonomi, smart economy menciptakan lingkungan yang dinamis bagi wirausaha dan industri. Dengan fokus pada efisiensi, inklusivitas, dan keberlanjutan, smart economy membantu kota menjadi pusat ekonomi yang tangguh dan adaptif terhadap perubahan global.",
+        "titleBranding": "Sebuah strategi membangun identitas kota yang kuat dan menarik dengan menggunakan teknologi dan inovasi digital. Melalui pencitraan yang autentik dan kampanye berbasis data, smart branding bertujuan untuk meningkatkan daya tarik kota bagi wisatawan, investor, dan warga lokal. Dengan menyoroti keunikan, potensi, dan kemajuan teknologi, smart branding membantu menciptakan reputasi kota yang modern, inklusif, dan berkelanjutan, sekaligus memupuk kebanggaan dan partisipasi warga dalam perkembangan kota.",
+        "button_click": "Klik untuk detail"
+    },
+    "news": {
+        "title": "Berita",
+        "titleBerita1": "Cara Cek Jadwal MRT,  LRT, TransJakarta, dan Mikrotrans di Aplikasi JAKI",
+        "titleBerita2": "Cara Bayar Tagihan Listrik di Shopee Hanya dengan Beberapa Klik!",
+        "titleBerita3": "Mengenal CRM Sebagai Kanal Aduan Masyarakat Jakarta",
+        "titleBerita4": "Kisah Peserta JKN Daftar Berobat Tanpa Antre Lewat Aplikasi JKN Mobile",
+        "titleBerita5": "Naik Suroboyo Bus Kini Bisa Bayar Pakai Kartu e-Money"
+    },
+    "gallery": { 
+        "title": "Galeri"
+    },   
+     "maps_smart_city": {
+        "title": " KOTA-KOTA YANG MENERAPKAN SMART CITY"
+    }
+}

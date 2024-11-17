@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "home": "Home",
+        "smart_city": "Learn About Smart City",
+        "news": "News",
+        "gallery": "Gallery",
+        "maps_smart_city": "Smart City Map"
+    },
+    "lang": {
+        "id": "Indonesian",
+        "en": "English"
+    },
+    "header": {
+        "title": "Welcome to the Future of Indonesia"
+    },
+    "smart_city": {
+        "title": "Learn About Smart City",
+        "subtitle": "Aspects that Shape a Smart City",
+        "titleGovernance": "A modern governance concept that leverages digital technology to create a more efficient, transparent, and responsive government. By implementing e-Government services, data analysis, and public participation, smart governance enhances the quality of public services, accelerates data-driven decision-making, and encourages community involvement. The ultimate goal is to build an inclusive, sustainable, and adaptive smart city that meets the needs of its citizens.",
+        "titleEnviroment": "A smart environment concept that combines technology and data to create a cleaner, more sustainable, and healthier city for its residents. Through air quality monitoring, green energy management, smart waste management, and natural resource conservation, the smart environment aims to reduce environmental impact while improving quality of life. Technologies such as environmental sensors and renewable energy systems enable the city to efficiently monitor and manage resources, creating a greener and healthier future for all.",
+        "titleSociety": "A smart society concept that integrates technology and data to create a cleaner, more sustainable, and healthier city for its residents. Through air quality monitoring, green energy management, smart waste management, and natural resource conservation, the smart environment aims to reduce environmental impact while improving quality of life. Technologies such as environmental sensors and renewable energy systems enable the city to efficiently monitor and manage resources, creating a greener and healthier future for all.",
+        "titleLiving": "A smart living concept that integrates technology into daily life to create a comfortable, safe, and high-quality environment for city residents. Through digital solutions for healthcare, security, housing, and recreation, smart living offers a better and more connected living experience. With a focus on comfort and well-being, smart living ensures residents have easy access to public services and modern facilities that support a healthy and balanced lifestyle.",
+        "titleEconomy": "A smart economy concept that leverages technology to drive innovation, productivity, and competitiveness in the digital era. Through the development of technology-based businesses, support for startups, and the use of data for economic decision-making, the smart economy creates a dynamic environment for entrepreneurship and industry. With a focus on efficiency, inclusivity, and sustainability, the smart economy helps the city become a resilient economic hub that adapts to global changes.",
+        "titleBranding": "A strategy to build a strong and attractive city identity using technology and digital innovation. Through authentic imaging and data-driven campaigns, smart branding aims to enhance the city's appeal to tourists, investors, and local residents. By highlighting the city's uniqueness, potential, and technological advancements, smart branding helps create a modern, inclusive, and sustainable city reputation while fostering pride and participation among residents in the city's development.",
+        "button_click": "Click for details"
+    },
+    "news": {
+        "title": "News",
+        "titleBerita1": "How to Check MRT, LRT, TransJakarta, and Mikrotrans Schedules on the JAKI App",
+        "titleBerita2": "How to Pay Electricity Bills on Shopee with Just a Few Clicks!",
+        "titleBerita3": "Understanding CRM as Jakarta's Public Complaint Channel",
+        "titleBerita4": "The Story of JKN Participants Registering for Treatment Without Queuing Through the JKN Mobile App",
+        "titleBerita5": "Now You Can Pay for Suroboyo Bus with e-Money Card"
+    },
+    "gallery": {
+        "title": "Gallery"
+    },
+    "maps_smart_city": {
+        "title": "Cities Implementing Smart City"
+    }
+}

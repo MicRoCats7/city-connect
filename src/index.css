@@ -11,6 +11,13 @@
   padding-right: 150px;
 }
 
+.wrapper-mobile {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .font-general-sans-medium {
   font-family: GeneralSans-Medium;
 }
@@ -36,6 +43,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+}
+
+.scale-wrapper {
+  transform: scale(0.8);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .scale-wrapper {
+    transform: scale(0.4);
+  }
 }
 
 @layer utilities {

@@ -11,7 +11,6 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { IoEarth } from "react-icons/io5";
 import logoBlack from "@/assets/logo-black.svg";
 import { useTranslation } from "react-i18next";
 import enFlag from "@/assets/flag-en.svg";

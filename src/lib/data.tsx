@@ -136,6 +136,7 @@ export const galeri = [
   {
     id: 1,
     name: "Bandung",
+    coor: [-6.9153714084368385, 107.64658613354767] as [number, number],
     link: "https://www.youtube.com/embed/CsFRai1m9QI?si=wEuw79iu1rt9I9v",
     thumbnail: thumbnailGaleri3,
     photo: [
@@ -169,6 +170,7 @@ export const galeri = [
   {
     id: 2,
     name: "Surabaya",
+    coor: [-7.263351734202219, 112.74701138580754] as [number, number],
     link: "https://www.youtube.com/embed/VLsNfipXv5Q?si=LbjWf2K2zPeHNiha",
     thumbnail: thumbnailGaleri2,
     photo: [
@@ -207,6 +209,7 @@ export const galeri = [
   {
     id: 3,
     name: "Jakarta",
+    coor: [-6.195590285033856, 106.81645301833055] as [number, number],
     link: "https://www.youtube.com/embed/K_roO9tycV4?si=YVKXr4K1mBFNXQ8V",
     thumbnail: thumbnailGaleri1,
     photo: [
@@ -255,6 +258,7 @@ export const galeri = [
   {
     id: 4,
     name: "Denpasar",
+    coor: [-8.670275895575003, 115.21256896031949] as [number, number],
     link: "https://www.youtube.com/embed/X9alu7blkKI?si=hYlxYYThM_tRfNkz",
     thumbnail: thumbnailGaleri4,
     photo: [
@@ -278,6 +282,7 @@ export const galeri = [
   {
     id: 5,
     name: "Yogyakarta",
+    coor: [-7.801887880726409, 110.36729069447279] as [number, number],
     link: "https://www.youtube.com/embed/71uAk1skYsc?si=vBy7fJyPJHCMt5Yn",
     thumbnail: thumbnailGaleri5,
     photo: [
@@ -301,6 +306,7 @@ export const galeri = [
   {
     id: 6,
     name: "Semarang",
+    coor: [-6.983149791454412, 110.41019410198705] as [number, number],
     link: "https://www.youtube.com/embed/N_46mWMdmvQ?si=3qytRAOvCvSoCR1i",
     thumbnail: thumbnailGaleri6,
     photo: [
@@ -329,6 +335,7 @@ export const galeri = [
   {
     id: 7,
     name: "Makassar",
+    coor: [-5.1614080746708035, 119.43832845719861] as [number, number],
     link: "https://www.youtube.com/embed/H_Oi9evsuBo?si=74qyqpeKxoXb8rDR",
     thumbnail: thumbnailGaleri7,
     photo: [
@@ -352,18 +359,21 @@ export const galeri = [
   {
     id: 8,
     name: "Batu",
+    coor: [-7.882823743521434, 112.5336334130382] as [number, number],
     link: "https://www.youtube.com/embed/khiz3KW9ZTw?si=rIeG3CVxzUFebmfC",
     thumbnail: thumbnailGaleri8,
   },
   {
     id: 9,
     name: "Balikpapan",
+    coor: [-1.2367294421468487, 116.84723648615882] as [number, number],
     link: "https://www.youtube.com/embed/kDbY3N8ldGU?si=a2uYfbBTMaZIecKq",
     thumbnail: thumbnailGaleri9,
   },
   {
     id: 10,
     name: "Bekasi",
+    coor: [-6.239240304113193, 106.98419858312859] as [number, number],
     link: "https://www.youtube.com/embed/WL78Z3B_3cs?si=1-0W6HWYeOpj8NDb",
     thumbnail: thumbnailGaleri10,
   },

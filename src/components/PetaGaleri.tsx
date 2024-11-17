@@ -1,6 +1,15 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
-import iconlocation from "@/assets/icon_location.svg"
+import iconlocation from "@/assets/icon_location.svg";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+} from "@/components/ui/carousel";
+import { galeri } from '@/lib/data';
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
+import { IoIosInformationCircleOutline } from 'react-icons/io';
 
 function PetaGaleri() {
     const icon = new L.Icon({
@@ -8,27 +17,6 @@ function PetaGaleri() {
         iconSize: [25, 41],
         iconAnchor: [12, 41],
     });
-
-    const cityData = [
-        {
-            name: "Jakarta",
-            coordinates: [-6.2088, 106.8456] as [number, number],
-            image: "path_to_image_of_jakarta.jpg",
-            description: "Jakarta is implementing various smart city technologies.",
-        },
-        {
-            name: "Bandung",
-            coordinates: [-6.9175, 107.6191] as [number, number],
-            image: "path_to_image_of_bandung.jpg",
-            description: "Bandung has adopted smart city initiatives for urban management.",
-        },
-        {
-            name: "Surabaya",
-            coordinates: [-7.263351734202219, 112.74701138580754] as [number, number],
-            image: "path_to_image_of_surabaya.jpg",
-            description: "surabaya has adopted smart city initiatives for urban management.",
-        },
-    ];
 
     return (
         <section className="wrapper py-44 flex items-center justify-center flex-col" id="Peta Smart City">
@@ -39,20 +27,58 @@ function PetaGaleri() {
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                {cityData.map((city, index) => (
-                    <Marker key={index} position={city.coordinates} icon={icon}>
+                {galeri.map((city, index) => (
+                    <Marker key={index} position={city.coor} icon={icon}>
                         <Popup>
-                            <div className="text-center">
-                                <h2 className="font-semibold">{city.name}</h2>
-                                <p>{city.description}</p>
-                                <img src={city.image} alt={`Image of ${city.name}`} className="w-full mt-2" />
+                            <div className='flex items-start flex-col gap-1'>
+                                <h2 className="font-general-sans-semibold text-xl">{city.name}</h2>
+                                <div className='flex items-center gap-2'>
+                                    <h6 className="font-general-sans-regular">Fitur-Fitur Smart city yang ada di {city.name}</h6>
+                                    <Popover>
+                                        <PopoverTrigger>
+                                            <IoIosInformationCircleOutline />
+                                        </PopoverTrigger>
+                                        <PopoverContent className="bg-black text-white p-4 rounded-md">
+                                            <p className="text-sm text-center">Klik Gambar untuk melihat detail fitur</p>
+                                        </PopoverContent>
+                                    </Popover>
+                                </div>
                             </div>
+                            <Carousel
+                                opts={{
+                                    align: "start",
+                                }}
+                                className="w-full max-w-sm mt-4"
+                            >
+                                <CarouselContent>
+                                    {city.photo?.map((photo, idx) => (
+                                        <CarouselItem key={photo.id || idx} className='basis-1/2'>
+                                            <Card className="flex items-center justify-center">
+                                                <CardContent className="relative items-center justify-center p-1 w-[400px]">
+                                                    <Popover>
+                                                        <PopoverTrigger>
+                                                            <img
+                                                                src={photo.image}
+                                                                alt={photo.desc}
+                                                                className="rounded-md w-full h-full aspect-square"
+                                                            />
+                                                        </PopoverTrigger>
+                                                        <PopoverContent className="bg-black text-white p-4 rounded-md">
+                                                            <p className="text-sm text-center">{photo.desc}</p>
+                                                        </PopoverContent>
+                                                    </Popover>
+                                                </CardContent>
+                                            </Card>
+                                        </CarouselItem>
+                                    ))}
+                                </CarouselContent>
+                            </Carousel>
                         </Popup>
                     </Marker>
                 ))}
             </MapContainer>
-        </section>
-    )
+        </section >
+    );
 }
 
-export default PetaGaleri
+export default PetaGaleri;

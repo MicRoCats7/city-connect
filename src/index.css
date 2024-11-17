@@ -30,11 +30,9 @@
 
 .special-text {
   background: #ffffff;
-  background: linear-gradient(
-    to right,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
+  background: linear-gradient(to right,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.5) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -54,52 +52,42 @@
 
 @keyframes gradientBorderAnimation {
   0% {
-    border-image-source: linear-gradient(
-      45deg,
-      #fff,
-      transparent,
-      transparent,
-      transparent
-    );
+    border-image-source: linear-gradient(45deg,
+        #fff,
+        transparent,
+        transparent,
+        transparent);
   }
 
   25% {
-    border-image-source: linear-gradient(
-      135deg,
-      transparent,
-      #fff,
-      transparent,
-      transparent
-    );
+    border-image-source: linear-gradient(135deg,
+        transparent,
+        #fff,
+        transparent,
+        transparent);
   }
 
   50% {
-    border-image-source: linear-gradient(
-      225deg,
-      transparent,
-      transparent,
-      #fff,
-      transparent
-    );
+    border-image-source: linear-gradient(225deg,
+        transparent,
+        transparent,
+        #fff,
+        transparent);
   }
 
   75% {
-    border-image-source: linear-gradient(
-      315deg,
-      transparent,
-      transparent,
-      transparent,
-      #fff
-    );
+    border-image-source: linear-gradient(315deg,
+        transparent,
+        transparent,
+        transparent,
+        #fff);
   }
 
   100% {
-    border-image-source: linear-gradient(
-      405deg,
-      #fff,
-      transparent,
-      transparent,
-      transparent
-    );
+    border-image-source: linear-gradient(405deg,
+        #fff,
+        transparent,
+        transparent,
+        transparent);
   }
 }

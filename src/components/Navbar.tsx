@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.svg";
 import logoBlack from "@/assets/logo-black.svg";
+import enFlag from "@/assets/flag-en.svg";
+import idFlag from "@/assets/flag-indo.svg";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -10,7 +12,7 @@ import {
 import { MdKeyboardArrowDown } from "react-icons/md";
 import NavbarMobile from "./NavbarMobile";
 import { useTranslation } from "react-i18next";
-import { IoEarth } from "react-icons/io5";
+
 
 function Navbar() {
     const { t, i18n } = useTranslation();
@@ -111,6 +113,7 @@ function Navbar() {
                     <DropdownMenu>
                         <DropdownMenuTrigger className={`${scrolled ? "text-black" : "text-white"} flex items-center gap-2 outline-none font-general-sans-medium`}>
                             {i18n.language === "id" ? "ID" : "EN"}
+                            <img src={i18n.language === "id" ? idFlag : enFlag} className="w-5" alt="" />
                             <MdKeyboardArrowDown size={20} color={scrolled ? "black" : "white"} />
                         </DropdownMenuTrigger>
                         <DropdownMenuContent className="rounded-xl">
@@ -119,14 +122,14 @@ function Navbar() {
                                 onClick={() => handleLanguageChange("id")}
                             >
                                 ID
-                                <IoEarth size={25} />
+                                <img src={idFlag} className="w-5" alt="" />
                             </DropdownMenuItem>
                             <DropdownMenuItem
                                 className="bg-white cursor-pointer font-general-sans-medium"
                                 onClick={() => handleLanguageChange("en")}
                             >
                                 EN
-                                <IoEarth size={25} />
+                                <img src={enFlag} className="w-5" alt="" />
                             </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>

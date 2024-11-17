@@ -14,6 +14,8 @@ import {
 import { IoEarth } from "react-icons/io5";
 import logoBlack from "@/assets/logo-black.svg";
 import { useTranslation } from "react-i18next";
+import enFlag from "@/assets/flag-en.svg";
+import idFlag from "@/assets/flag-indo.svg";
 
 function NavbarMobile() {
     const { t, i18n } = useTranslation();
@@ -114,15 +116,24 @@ function NavbarMobile() {
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="flex items-center gap-2">
-                                <IoEarth size={25} />
-                                <span className="font-general-sans-medium text-base tablet:text-lg">{i18n.language === "id" ? t("lang.id") : t("lang.en")}</span>
+                                {i18n.language === "id" ? (
+                                    <>
+                                        <img src={idFlag} className="w-5" alt="id flag" />
+                                        <span className="font-general-sans-medium text-base tablet:text-lg">{t("lang.id")}</span>
+                                    </>
+                                ) : (
+                                    <>
+                                        <img src={enFlag} className="w-5" alt="en flag" />
+                                        <span className="font-general-sans-medium text-base tablet:text-lg">{t("lang.en")}</span>
+                                    </>
+                                )}
                             </AccordionTrigger>
                             <AccordionContent className="flex items-center gap-2" onClick={() => handleLanguageChange("id")}>
-                                <IoEarth size={25} />
+                                <img src={idFlag} className="w-5" alt="id flag" />
                                 <span className="font-general-sans-medium text-base tablet:text-lg">{t("lang.id")}</span>
                             </AccordionContent>
                             <AccordionContent className="flex items-center gap-2" onClick={() => handleLanguageChange("en")}>
-                                <IoEarth size={25} />
+                                <img src={enFlag} className="w-5" alt="en flag" />
                                 <span className="font-general-sans-medium text-base tablet:text-lg">{t("lang.en")}</span>
                             </AccordionContent>
                         </AccordionItem>
